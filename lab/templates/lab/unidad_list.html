@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title%}Unidades{% endblock %}
+{% block content %}
+<h1>Unidades</h1>
+<h3>
+    <a href="{% url 'unidad-create' %}">Nueva Unidad</a> 
+</h3>
+<ul>
+    {% for unidad in object_list %}
+        <li>{{ unidad.sigla  }} - {{ unidad.descrip  }}
+            <a href="{% url 'unidad-edit' unidad.id %}">Editar</a> 
+            <a href="{% url 'unidad-delete' unidad.id %}">Eliminar</a> 
+        </li>
+        {% empty %}
+        <li>No hay unidades todavía.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

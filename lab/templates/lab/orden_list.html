@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title%}Órdenes{% endblock %}
+{% block content %}
+<h1>Órdenes</h1>
+<h3>
+    <a href="{% url 'orden-create' %}">Nueva Orden</a> 
+</h3>
+<ul>
+    {% for orden in object_list %}
+        <li>{{ orden.fecha_alta  }} - {{ orden.paciente  }}
+            <a href="{% url 'orden-edit' orden.id %}">Editar</a> 
+            <a href="{% url 'orden-delete' orden.id %}">Eliminar</a> 
+        </li>
+        {% empty %}
+        <li>No hay órdenes todavía.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title%}Unidad{% endblock %}
+{% block content %}
+{% if object == None %}
+    <h1>Crear Unidad</h1>
+{% else %}
+    <h1>Editar Unidad</h1>
+{% endif %}
+<form method="post">{% csrf_token %}
+    {{ form.as_p  }}
+    <input type="submit" value="Guardar">
+    <input type="button" value="Cancelar" onclick="location.href='{%url 'unidad-list'%}'">
+</form>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title%}Eliminar {{object}}{% endblock %}
+{% block content %}
+<h1>Eliminar Paciente</h1>
+<form method="post">{% csrf_token %}
+    <p>¿Seguro que desea eliminar "{{ object  }}"?</p>
+    <input type="submit" value="Confirmar">
+    <input type="button" value="Cancelar" onclick="location.href='{%url 'prueba-list'%}'">
+</form>
+{% endblock %}

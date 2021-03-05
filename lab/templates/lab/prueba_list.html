@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title%}Pruebas{% endblock %}
+{% block content %}
+<h1>Pruebas</h1>
+<h3>
+    <a href="{% url 'prueba-create' %}">Nueva Prueba</a> 
+</h3>
+<ul>
+    {% for prueba in object_list %}
+        <li>{{ prueba.nombre  }} - {{ prueba.unidad  }}
+            <a href="{% url 'prueba-edit' prueba.id %}">Editar</a> 
+            <a href="{% url 'prueba-delete' prueba.id %}">Eliminar</a> 
+        </li>
+        {% empty %}
+        <li>No hay pruebaes todavía.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

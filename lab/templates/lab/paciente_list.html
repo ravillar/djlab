@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title%}Pacientes{% endblock %}
+{% block content %}
+<h1>Pacientes</h1>
+<h3>
+    <a href="{% url 'paciente-create' %}">Nuevo Paciente</a> 
+</h3>
+<ul>
+    {% for paciente in object_list %}
+        <li>{{ paciente.nombre  }} - {{ paciente.unidad  }}
+            <a href="{% url 'paciente-edit' paciente.id %}">Editar</a> 
+            <a href="{% url 'paciente-delete' paciente.id %}">Eliminar</a> 
+        </li>
+        {% empty %}
+        <li>No hay pacientees todavía.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
