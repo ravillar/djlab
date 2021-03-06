@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+{% block title %}Creando su cuenta{% endblock %}
+
+{% block content %}
+    {% if form.errors %}
+        <p>Error en usuario y/o contraseña. Intente nuevamente por favor.</p>
+    {% endif %}
+
+    <form method="POST" class="form-group">
+        {% csrf_token %}
+        {{ form  }}
+        <button type="submit" class="btn btn-success">Registrarse</button>
+    </form>
+    <a href="{% url 'home'%}">Volver</a>
+{% endblock %}

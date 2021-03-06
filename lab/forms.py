@@ -1,6 +1,8 @@
 from django import forms
-from django_select2 import forms as s2forms
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
 
+from django_select2 import forms as s2forms
 from lab.models import Orden
 
 class PruebasWidget(s2forms.Select2MultipleWidget):
@@ -16,3 +18,9 @@ class OrdenForm(forms.ModelForm):
         widgets = {
                 "pruebas": PruebasWidget(),
         }
+
+class RegisterForm(UserCreationForm):
+    email = forms.EmailField()
+    class Meta:
+        model = User
+        fields = ["username", "email", "password1", "password2"]

@@ -1,5 +1,6 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 # from django.http import HttpResponse
 # def index(request):
@@ -13,6 +14,12 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 from django.urls import reverse_lazy
 from . import forms
+
+# para ser heredada por las clases de views genéricas que requieren autenticación
+class LoginRequiredView(LoginRequiredMixin):
+        login_url = reverse_lazy('login')
+        redirect_field_name = 'redirect_to'
+
 class HomePageView(TemplateView):
     template_name = "lab/home.html"
     def get_context_data(self, **kwargs):
@@ -20,7 +27,7 @@ class HomePageView(TemplateView):
         # context['latest_articles'] = Article.objects.all()[:5]
         return context
 
-class UnidadListView(ListView):
+class UnidadListView(LoginRequiredView,ListView):
 
     model = Unidad
     # paginate_by = 100  # if pagination is desired
@@ -30,18 +37,18 @@ class UnidadListView(ListView):
     #     context['now'] = timezone.now()
     #     return context
 
-class UnidadCreate(CreateView):
+class UnidadCreate(LoginRequiredView,CreateView):
     model = Unidad
     fields = ['sigla', 'descrip']
     success_url = reverse_lazy('unidad-list')
 
-class UnidadUpdate(UpdateView):
+class UnidadUpdate(LoginRequiredView,UpdateView):
     model = Unidad
     fields = ['sigla', 'descrip']
     # template_name_suffix = '_update_form'
     success_url = reverse_lazy('unidad-list')
 
-class UnidadDelete(DeleteView):
+class UnidadDelete(LoginRequiredView,DeleteView):
     model = Unidad
     success_url = reverse_lazy('unidad-list')
     # def post(self, request, *args, **kwargs):
@@ -51,20 +58,20 @@ class UnidadDelete(DeleteView):
     #     else:
     #         return super(UnidadDelete, self).post(request, *args, **kwargs)
 
-class PruebaListView(ListView):
+class PruebaListView(LoginRequiredView,ListView):
     model = Prueba
-class PruebaCreate(CreateView):
+class PruebaCreate(LoginRequiredView,CreateView):
     model = Prueba
     fields = '__all__' #['nombre', 'unidad', 'minimo', 'maximo']
     success_url = reverse_lazy('prueba-list')
 
-class PruebaUpdate(UpdateView):
+class PruebaUpdate(LoginRequiredView,UpdateView):
     model = Prueba
     fields = '__all__'
     # template_name_suffix = '_update_form'
     success_url = reverse_lazy('prueba-list')
 
-class PruebaDelete(DeleteView):
+class PruebaDelete(LoginRequiredView,DeleteView):
     model = Prueba
     success_url = reverse_lazy('prueba-list')
     # def post(self, request, *args, **kwargs):
@@ -73,19 +80,19 @@ class PruebaDelete(DeleteView):
     #         return HttpResponseRedirect(url)
     #     else:
     #         return super(UnidadDelete, self).post(request, *args, **kwargs)
-class PacienteListView(ListView):
+class PacienteListView(LoginRequiredView,ListView):
     model = Paciente
-class PacienteCreate(CreateView):
-    model = Paciente
-    fields = '__all__'
-    success_url = reverse_lazy('paciente-list')
-
-class PacienteUpdate(UpdateView):
+class PacienteCreate(LoginRequiredView,CreateView):
     model = Paciente
     fields = '__all__'
     success_url = reverse_lazy('paciente-list')
 
-class PacienteDelete(DeleteView):
+class PacienteUpdate(LoginRequiredView,UpdateView):
+    model = Paciente
+    fields = '__all__'
+    success_url = reverse_lazy('paciente-list')
+
+class PacienteDelete(LoginRequiredView,DeleteView):
     model = Paciente
     success_url = reverse_lazy('paciente-list')
 
@@ -94,23 +101,41 @@ class PacienteDelete(DeleteView):
 
 
 
-class OrdenListView(ListView):
+class OrdenListView(LoginRequiredView,ListView):
     model = Orden
     ordering = ['-fecha_alta']
 
-class OrdenCreate(CreateView):
+class OrdenCreate(LoginRequiredView,CreateView):
     model = Orden
     # fields = '__all__'
     form_class = forms.OrdenForm
     success_url = reverse_lazy('orden-list')
 
-class OrdenUpdate(UpdateView):
+class OrdenUpdate(LoginRequiredView,UpdateView):
     model = Orden
     # fields = '__all__'
     form_class = forms.OrdenForm
     success_url = reverse_lazy('orden-list')
 
-class OrdenDelete(DeleteView):
+class OrdenDelete(LoginRequiredView,DeleteView):
     model = Orden
     success_url = reverse_lazy('orden-list')
 
+
+
+
+def register(response):
+    if response.method == "POST":
+        form = forms.RegisterForm(response.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            # return HttpResponseRedirect(reverse_lazy('lab:home'))
+            return redirect(reverse_lazy('lab:home'))
+
+    else:
+        form = forms.RegisterForm()
+    return render(response, "registration/register.html", {"form":form})

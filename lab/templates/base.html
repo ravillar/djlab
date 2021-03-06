@@ -6,11 +6,23 @@
         <title>Lab - {% block title %}My amazing site{% endblock %}</title>
     </head>
     <body>
-        <div id="sidebar">
-        {% block sidebar %}
-            {% include "sidebar.html" %}
-        {% endblock %}
+        <div id="header">
+            <ul>
+            {% if user.is_authenticated %}
+                 <li>User: {{ user.get_username  }}</li>
+                  <li><a href="{% url 'logout'%}">Logout</a></li>
+                  <li><a href="{% url 'change-password'%}?next={{request.path}}">Cambiar contraseña</a></li>
+             {% else %}
+                  <li><a href="{% url 'login'%}">Login</a></li>
+                  <li><a href="{% url 'register'%}">Registrarse</a></li>
+             {% endif %}
+            </ul>
         </div>
+                <div id="sidebar">
+                {% block sidebar %}
+                    {% include "sidebar.html" %}
+                {% endblock %}
+                </div>
 
         <div id="content">
         {% block content %}{% endblock %}
