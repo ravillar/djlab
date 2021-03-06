@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import login, authenticate
+from django.contrib import messages
+from django.contrib.auth import login, authenticate, update_session_auth_hash
+from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 # from django.http import HttpResponse
@@ -96,11 +98,6 @@ class PacienteDelete(LoginRequiredView,DeleteView):
     model = Paciente
     success_url = reverse_lazy('paciente-list')
 
-
-
-
-
-
 class OrdenListView(LoginRequiredView,ListView):
     model = Orden
     ordering = ['-fecha_alta']
@@ -121,21 +118,33 @@ class OrdenDelete(LoginRequiredView,DeleteView):
     model = Orden
     success_url = reverse_lazy('orden-list')
 
-
-
-
-def register(response):
-    if response.method == "POST":
-        form = forms.RegisterForm(response.POST)
+def register(request):
+    if request.method == "POST":
+        form = forms.RegisterForm(request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=raw_password)
             login(request, user)
-            # return HttpResponseRedirect(reverse_lazy('lab:home'))
-            return redirect(reverse_lazy('lab:home'))
+            # return redirect(reverse_lazy('home'))
+            return redirect(home)
 
     else:
         form = forms.RegisterForm()
-    return render(response, "registration/register.html", {"form":form})
+    return render(request, "registration/register.html", {"form":form})
+
+def changepass(request):
+    if request.method == 'POST':
+        form = PasswordChangeForm(request.user, request.POST)
+        if form.is_valid():
+            user = form.save()
+            update_session_auth_hash(request, user)  # Important!
+            messages.success(request, 'Contraseña cambiada satisfactoriamente.')
+            # return redirect(reverse_lazy('home'))
+            return redirect('changepass')
+        else:
+            messages.error(request, 'Atienda los errors indicados.')
+    else:
+        form = PasswordChangeForm(request.user)
+    return render(request, 'registration/change_password.html', {'form': form})
