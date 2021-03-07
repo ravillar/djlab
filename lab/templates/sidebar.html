@@ -1,11 +1,16 @@
+{% load permission_tags %}
         {% block sidebar %}
             <ul>
                 <li><a href="{% url 'home' %}">Home</a></li>
-            {% if user.is_authenticated %}
-                <li><a href="{% url 'orden-list' %}">Órdenes</a></li>
-                <li><a href="{% url 'paciente-list' %}">Pacientes</a></li>
-                <li><a href="{% url 'prueba-list' %}">Pruebas</a></li>
-                <li><a href="{% url 'unidad-list' %}">Unidades</a></li>
+                {% if user.is_authenticated %}
+                {% if user|has_role:'recepcion' %}
+                    <li><a href="{% url 'orden-list' %}">Órdenes</a></li>
+                    <li><a href="{% url 'paciente-list' %}">Pacientes</a></li>
+                {% endif %}
+                {% if user|has_role:'laboratorio' %}
+                    <li><a href="{% url 'prueba-list' %}">Pruebas</a></li>
+                    <li><a href="{% url 'unidad-list' %}">Unidades</a></li>
+                {% endif %}
             {% endif %}
             </ul>
         {% endblock %}

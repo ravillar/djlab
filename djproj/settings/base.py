@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_select2',
+    'rolepermissions',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +124,7 @@ SELECT2_I18N_PATH = 'assets/js/i18n'
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+ROLEPERMISSIONS_MODULE = 'lab.roles'
+ROLEPERMISSIONS_REGISTER_ADMIN = True
+
