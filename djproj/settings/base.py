@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_select2',
     'rolepermissions',
+    'crispy_forms',
+    'tempus_dominus',
 ]
 
 MIDDLEWARE = [
@@ -117,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
 SELECT2_CSS = 'assets/css/select2.min.css'
 SELECT2_JS = 'assets/js/select2.min.js'
 SELECT2_I18N_PATH = 'assets/js/i18n'
@@ -128,3 +131,6 @@ LOGOUT_REDIRECT_URL = '/'
 ROLEPERMISSIONS_MODULE = 'lab.roles'
 ROLEPERMISSIONS_REGISTER_ADMIN = True
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+TEMPUS_DOMINUS_LOCALIZE=True

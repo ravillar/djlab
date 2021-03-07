@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% block title%}Prueba{% endblock %}
 {% block content %}
+{% load crispy_forms_tags %}
 {% if object == None %}
     <h1>Crear Prueba</h1>
 {% else %}
     <h1>Editar Prueba</h1>
 {% endif %}
 <form method="post">{% csrf_token %}
-    {{ form.as_p  }}
+    {{ form|crispy  }}
     <input type="submit" value="Guardar">
     <input type="button" value="Cancelar" onclick="location.href='{%url 'prueba-list'%}'">
 </form>

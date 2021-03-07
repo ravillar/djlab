@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% block title%}Unidad{% endblock %}
 {% block content %}
+{% load crispy_forms_tags %}
 {% if object == None %}
     <h1>Crear Unidad</h1>
 {% else %}
     <h1>Editar Unidad</h1>
 {% endif %}
 <form method="post">{% csrf_token %}
-    {{ form.as_p  }}
+    {{ form|crispy  }}
     <input type="submit" value="Guardar">
     <input type="button" value="Cancelar" onclick="location.href='{%url 'unidad-list'%}'">
 </form>

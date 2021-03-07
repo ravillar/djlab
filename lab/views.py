@@ -37,7 +37,6 @@ class HomePageView(TemplateView):
         return context
 
 class UnidadListView(LaboratorioRequired,ListView):
-
     model = Unidad
     # paginate_by = 100  # if pagination is desired
 
@@ -93,12 +92,14 @@ class PacienteListView(RecepcionRequired,ListView):
     model = Paciente
 class PacienteCreate(RecepcionRequired,CreateView):
     model = Paciente
-    fields = '__all__'
+    form_class = forms.PacienteForm
+    # fields = '__all__'
     success_url = reverse_lazy('paciente-list')
 
 class PacienteUpdate(RecepcionRequired,UpdateView):
     model = Paciente
-    fields = '__all__'
+    form_class = forms.PacienteForm
+    # fields = '__all__'
     success_url = reverse_lazy('paciente-list')
 
 class PacienteDelete(RecepcionRequired,DeleteView):
@@ -136,7 +137,6 @@ def register(request):
             login(request, user)
             # return redirect(reverse_lazy('home'))
             return redirect(home)
-
     else:
         form = forms.RegisterForm()
     return render(request, "registration/register.html", {"form":form})

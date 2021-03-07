@@ -3,7 +3,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
 from django_select2 import forms as s2forms
-from lab.models import Orden
+from tempus_dominus.widgets import DateTimePicker,  DatePicker #, TimePicker,
+from lab.models import Orden, Paciente
 
 class PruebasWidget(s2forms.Select2MultipleWidget):
     search_fields = [
@@ -17,8 +18,16 @@ class OrdenForm(forms.ModelForm):
         # readonly_fields = ["fecha_alta"]
         widgets = {
                 "pruebas": PruebasWidget(),
+                "fecha_alta": DateTimePicker(options={'locale':'es','sideBySide':True,'format':'DD/MM/YYYY HH:mm', 'buttons':{'showToday': True,'showClose': True}})
         }
 
+class PacienteForm(forms.ModelForm):
+    class Meta:
+        model = Paciente
+        fields = "__all__"
+        widgets = {
+                "fecha_nac": DatePicker(options={'locale':'es','sideBySide':True,'format':'DD/MM/YYYY', 'buttons':{'showToday': True,'showClose': True}})#,'showClear': True
+        }
 class RegisterForm(UserCreationForm):
     email = forms.EmailField()
     class Meta:
