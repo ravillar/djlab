@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import login, authenticate, update_session_auth_hash
-from django.contrib.auth.forms import PasswordChangeForm
+# from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 # from django.http import HttpResponse
@@ -19,24 +19,51 @@ from . import forms
 
 from rolepermissions.mixins import HasRoleMixin
 
+aux_ctx = {
+        'home':{'url':reverse_lazy('home'), 'icon':'fas fa-home', 'titulo':'Home', 'singular':'', 'descrip':'Bienvenido al Sistema Lab !!'},
+        'unidad':{'url':reverse_lazy('unidad-list'), 'icon':'fas fa-ruler-combined', 'titulo':'Unidades', 'singular':'Unidad', 'descrip':'En las que se expresan las mediciones de las pruebas de laboratorio'},
+        'prueba':{'url':reverse_lazy('prueba-list'), 'icon':'fas fa-microscope', 'titulo':'Pruebas', 'singular':'Prueba', 'descrip':'Prácticas de laboratorio'},
+        'paciente':{'url':reverse_lazy('paciente-list'), 'icon':'fas fa-id-card', 'titulo':'Pacientes', 'singular':'Paciente', 'descrip':'Registro de personas a las que se le tomaron las muestras'},
+        'orden':{'url':reverse_lazy('orden-list'), 'icon':'fas fa-file-medical', 'titulo':'Órdenes', 'singular':'Orden', 'descrip':'Estudios solicitados por profesionales médicos'},
+        'resultado':{'url':reverse_lazy('home'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
+        'carga':{'url':reverse_lazy('home'), 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
+}
+
 # para ser heredada por las clases de views genéricas que requieren autenticación
 class LoginRequired(LoginRequiredMixin):
     login_url = reverse_lazy('login')
-    redirect_field_name = 'redirect_to'
+    redirect_field_name = 'next'
 
 class RecepcionRequired(HasRoleMixin, LoginRequired):
     allowed_roles = 'recepcion'
 class LaboratorioRequired(HasRoleMixin, LoginRequired):
     allowed_roles = 'laboratorio'
 
-class HomePageView(TemplateView):
+class HomePageView(LoginRequired, TemplateView):
     template_name = "lab/home.html"
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        # context['latest_articles'] = Article.objects.all()[:5]
+        context['aux'] = aux_ctx['home']
+        return context
+class ResultadoView(LoginRequired, TemplateView):
+    template_name = "lab/home.html"
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['aux'] = aux_ctx['resultado']
+        return context
+class CargaView(LoginRequired, TemplateView):
+    template_name = "lab/home.html"
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['aux'] = aux_ctx['carga']
         return context
 
-class UnidadListView(LaboratorioRequired,ListView):
+class UnidAux():
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['aux'] = aux_ctx['unidad']
+        return context
+class UnidadListView(UnidAux, LaboratorioRequired,ListView):
     model = Unidad
     # paginate_by = 100  # if pagination is desired
 
@@ -45,18 +72,18 @@ class UnidadListView(LaboratorioRequired,ListView):
     #     context['now'] = timezone.now()
     #     return context
 
-class UnidadCreate(LaboratorioRequired,CreateView):
+class UnidadCreate(UnidAux, LaboratorioRequired,CreateView):
     model = Unidad
     fields = ['sigla', 'descrip']
     success_url = reverse_lazy('unidad-list')
 
-class UnidadUpdate(LaboratorioRequired,UpdateView):
+class UnidadUpdate(UnidAux, LaboratorioRequired,UpdateView):
     model = Unidad
     fields = ['sigla', 'descrip']
     # template_name_suffix = '_update_form'
     success_url = reverse_lazy('unidad-list')
 
-class UnidadDelete(LaboratorioRequired,DeleteView):
+class UnidadDelete(UnidAux, LaboratorioRequired,DeleteView):
     model = Unidad
     success_url = reverse_lazy('unidad-list')
     # def post(self, request, *args, **kwargs):
@@ -66,20 +93,25 @@ class UnidadDelete(LaboratorioRequired,DeleteView):
     #     else:
     #         return super(UnidadDelete, self).post(request, *args, **kwargs)
 
-class PruebaListView(LaboratorioRequired,ListView):
+class PrueAux():
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['aux'] = aux_ctx['prueba']
+        return context
+class PruebaListView(PrueAux, LaboratorioRequired,ListView):
     model = Prueba
-class PruebaCreate(LaboratorioRequired,CreateView):
+class PruebaCreate(PrueAux, LaboratorioRequired,CreateView):
     model = Prueba
     fields = '__all__' #['nombre', 'unidad', 'minimo', 'maximo']
     success_url = reverse_lazy('prueba-list')
 
-class PruebaUpdate(LaboratorioRequired,UpdateView):
+class PruebaUpdate(PrueAux, LaboratorioRequired,UpdateView):
     model = Prueba
     fields = '__all__'
     # template_name_suffix = '_update_form'
     success_url = reverse_lazy('prueba-list')
 
-class PruebaDelete(LaboratorioRequired,DeleteView):
+class PruebaDelete(PrueAux, LaboratorioRequired,DeleteView):
     model = Prueba
     success_url = reverse_lazy('prueba-list')
     # def post(self, request, *args, **kwargs):
@@ -88,41 +120,51 @@ class PruebaDelete(LaboratorioRequired,DeleteView):
     #         return HttpResponseRedirect(url)
     #     else:
     #         return super(UnidadDelete, self).post(request, *args, **kwargs)
-class PacienteListView(RecepcionRequired,ListView):
+class PacAux():
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['aux'] = aux_ctx['paciente']
+        return context
+class PacienteListView(PacAux, RecepcionRequired,ListView):
     model = Paciente
-class PacienteCreate(RecepcionRequired,CreateView):
+class PacienteCreate(PacAux, RecepcionRequired,CreateView):
     model = Paciente
     form_class = forms.PacienteForm
     # fields = '__all__'
     success_url = reverse_lazy('paciente-list')
 
-class PacienteUpdate(RecepcionRequired,UpdateView):
+class PacienteUpdate(PacAux, RecepcionRequired,UpdateView):
     model = Paciente
     form_class = forms.PacienteForm
     # fields = '__all__'
     success_url = reverse_lazy('paciente-list')
 
-class PacienteDelete(RecepcionRequired,DeleteView):
+class PacienteDelete(PacAux, RecepcionRequired,DeleteView):
     model = Paciente
     success_url = reverse_lazy('paciente-list')
 
-class OrdenListView(RecepcionRequired,ListView):
+class OrdAux():
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['aux'] = aux_ctx['orden']
+        return context
+class OrdenListView(OrdAux, RecepcionRequired,ListView):
     model = Orden
     ordering = ['-fecha_alta']
 
-class OrdenCreate(RecepcionRequired,CreateView):
+class OrdenCreate(OrdAux, RecepcionRequired,CreateView):
     model = Orden
     # fields = '__all__'
     form_class = forms.OrdenForm
     success_url = reverse_lazy('orden-list')
 
-class OrdenUpdate(RecepcionRequired,UpdateView):
+class OrdenUpdate(OrdAux, RecepcionRequired,UpdateView):
     model = Orden
     # fields = '__all__'
     form_class = forms.OrdenForm
     success_url = reverse_lazy('orden-list')
 
-class OrdenDelete(RecepcionRequired,DeleteView):
+class OrdenDelete(OrdAux, RecepcionRequired,DeleteView):
     model = Orden
     success_url = reverse_lazy('orden-list')
 
@@ -136,14 +178,14 @@ def register(request):
             user = authenticate(username=username, password=raw_password)
             login(request, user)
             # return redirect(reverse_lazy('home'))
-            return redirect(home)
+            return redirect('home')
     else:
         form = forms.RegisterForm()
     return render(request, "registration/register.html", {"form":form})
 
 def changepass(request):
     if request.method == 'POST':
-        form = PasswordChangeForm(request.user, request.POST)
+        form = forms.ChangepassForm(request.user, request.POST)
         if form.is_valid():
             user = form.save()
             update_session_auth_hash(request, user)  # Important!
@@ -151,7 +193,11 @@ def changepass(request):
             # return redirect(reverse_lazy('home'))
             return redirect('changepass')
         else:
-            messages.error(request, 'Atienda los errors indicados.')
+            messages.error(request, 'Atienda los errores indicados.')
     else:
-        form = PasswordChangeForm(request.user)
+        form = forms.ChangepassForm(request.user)
     return render(request, 'registration/change_password.html', {'form': form})
+
+
+
+

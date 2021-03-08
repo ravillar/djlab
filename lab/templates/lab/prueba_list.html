@@ -1,18 +1,36 @@
-{% extends "base.html" %}
-{% block title%}Pruebas{% endblock %}
+{% extends "layout-common.html" %}
+{% block btn_nuevo%}<a class="badge badge-primary mb-1" href="{% url 'prueba-create' %}">Crear {{aux.singular}}</a>{% endblock %}
 {% block content %}
-<h1>Pruebas</h1>
-<h3>
-    <a href="{% url 'prueba-create' %}">Nueva Prueba</a> 
-</h3>
-<ul>
-    {% for prueba in object_list %}
-        <li>{{ prueba.nombre  }} - {{ prueba.unidad  }}
-            <a href="{% url 'prueba-edit' prueba.id %}">Editar</a> 
-            <a href="{% url 'prueba-delete' prueba.id %}">Eliminar</a> 
-        </li>
-        {% empty %}
-        <li>No hay pruebaes todavía.</li>
-    {% endfor %}
-</ul>
+<div class="table-responsive">
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Unidad</th>
+                <th>Val. ref. mínimo</th>
+                <th>Val. ref. máximo</th>
+                <th>Acciones</th>
+                </tr>
+        </thead>
+        <tbody>
+        {% for prueba in object_list %}
+           <tr>
+                <td>{{ prueba.pk  }}</td>
+                <td>{{ prueba.nombre  }}</td>
+                <td>{{ prueba.unidad|default_if_none:''   }}</td> 
+                <td>{{ prueba.minimo|default_if_none:''   }}</td>
+                <td>{{ prueba.maximo|default_if_none:''   }}</td> 
+                <td>
+                <a href="{% url 'prueba-edit' prueba.id %}" title="Editar"><i class="ik ik-edit f-16 mr-15 text-green"></i></a> 
+                <a href="{% url 'prueba-delete' prueba.id %}" title="Eliminar"><i class="ik ik-trash-2 f-16 text-red"></i></a> 
+                </td>
+            {% empty %}
+            <td colspan="3">No hay pruebas todavía.</td>
+        {% endfor %} 
+            </tr>
+
+        </tbody>
+    </table>
+</div>
 {% endblock %}

@@ -1,39 +1,42 @@
-{% extends "base_generic.html" %}
+{% extends "layout.html" %}
 
     {% block content %}
-    {% if form.errors %}
-        <p>Error en usuario y/o contraseña. Intente nuevamente por favor.</p>
-    {% endif %}
 
     {% if next %}
         {% if user.is_authenticated %}
-            <p>Your account doesn't have access to this page. To proceed,
-                please login with an account that has access.</p>
+                                <div class="alert bg-warning alert-warning text-white error" role="alert">
+                    Su cuenta no tiene permisos para acceder a esta página.
+                                </div>
         {% else %}
-                    <p>Debe estar autenticado para ver esta página.</p>
+                                <div class="alert bg-warning alert-warning text-white error" role="alert">
+                    Debe estar autenticado para acceder al sistema.
+                                </div>
         {% endif %}
     {% endif %}
 
+    {% if form.errors %}
+                                <div class="alert bg-warning alert-warning text-white error" role="alert">
+        Error en usuario y/o contraseña. Intente nuevamente por favor.
+                                </div>
+    {% endif %}
             <form method="post" action="{% url 'login' %}">
                 {% csrf_token %}
-
-                <div>
-                      <td>{{ form.username.label_tag  }}</td>
-                        <td>{{ form.username  }}</td>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Usuario" name="username" autofocus required>
+                    <i class="ik ik-user"></i>
                 </div>
-                <div>
-                      <td>{{ form.password.label_tag  }}</td>
-                        <td>{{ form.password  }}</td>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Contraseña"   name="password" required>
+                    <i class="ik ik-lock"></i>
+                
+                <div class="sign-btn text-center">
+                      <input type="submit"  class="btn btn-theme" value="Ingresar" />
+                      <input type="hidden" name="next" value="{{ next  }}" />
                 </div>
-
-                <div>
-                      <input type="submit" value="login" />
-                        <input type="hidden" name="next" value="{{ next  }}" />
-                </div>
+                <!-- <hr> -->
+                <!-- <div class="register"> -->
+                <!--     <a href="{ % url 'register' % }">Registrarse</a> -->
+                <!-- </div> -->
             </form>
 
-            {# Assumes you setup the password_reset view in your URLconf #}
-            {# <p><a href="{% url 'password_reset' %}">Lost password?</a></p>#}
-
-            <a href="{% url 'home'%}">Volver</a>
     {% endblock %}

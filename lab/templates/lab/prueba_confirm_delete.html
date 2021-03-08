@@ -1,11 +1,13 @@
-{% extends "base.html" %}
-
-{% block title%}Eliminar {{object}}{% endblock %}
+{% extends "layout-common.html" %}
 {% block content %}
-<h1>Eliminar Prueba</h1>
 <form method="post">{% csrf_token %}
-    <p>¿Seguro que desea eliminar "{{ object  }}"?</p>
-    <input type="submit" value="Confirmar">
-    <input type="button" value="Cancelar" onclick="location.href='{%url 'prueba-list'%}'">
+    <div class="alert alert-danger" role="alert">
+        <h5>¿Seguro que desea eliminar {{aux.singular}} "{{ object  }}"?</h5>
+      </div>
+
+    <div class="modal-footer">
+    <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'prueba-list'%}'">
+    <input class="btn btn-danger"  type="submit" value="Confirmar">
+    </div>
 </form>
 {% endblock %}

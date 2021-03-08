@@ -1,5 +1,5 @@
-{% extends "base_generic.html" %}
-{% block title %}Creando su cuenta{% endblock %}
+{% extends "layout.html" %}
+{% load crispy_forms_tags %}
 
 {% block content %}
     {% if form.errors %}
@@ -8,8 +8,8 @@
 
     <form method="POST" class="form-group">
         {% csrf_token %}
-        {{ form  }}
-        <button type="submit" class="btn btn-success">Registrarse</button>
+        {{ form|crispy  }}
+        <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'home'%}'">
+        <input class="btn btn-primary"  type="submit" value="Registrarse">
     </form>
-    <a href="{% url 'home'%}">Volver</a>
 {% endblock %}

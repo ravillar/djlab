@@ -68,19 +68,19 @@ dtpbuttons={
 // })
 
 function setNavStat(stat){
-    var estado
-    if(stat=='collapsed'){
-        estado=0
-    }else{
-        estado=1
-    }
-    $.ajax({
-        url : '/inicio/navstat/'+estado,
-        type: 'POST',
-    }).done(function(obj){
-    }).fail(function(resp){
-        eval(resp.responseText);
-    })
+    // var estado
+    // if(stat=='collapsed'){
+    //     estado=0
+    // }else{
+    //     estado=1
+    // }
+    // $.ajax({
+    //     url : '/inicio/navstat/'+estado,
+    //     type: 'POST',
+    // }).done(function(obj){
+    // }).fail(function(resp){
+    //     eval(resp.responseText);
+    // })
 }
 function getNavStat(){
     $.ajax({

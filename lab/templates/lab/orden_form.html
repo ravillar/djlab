@@ -1,5 +1,4 @@
-{% extends "base.html" %}
-{% block title%}Orden{% endblock %}
+{% extends "layout-common.html" %}
 {% block content %}
 {% load crispy_forms_tags %}
 {{ form.media.css  }}
@@ -9,9 +8,11 @@
     <h1>Editar Orden</h1>
 {% endif %}
 <form method="post">{% csrf_token %}
-    {{ form|crispy }}
-    <input type="submit" value="Guardar">
-    <input type="button" value="Cancelar" onclick="location.href='{%url 'orden-list'%}'">
+    {{ form|crispy  }}
+    <div class="modal-footer">
+    <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'orden-list'%}'">
+    <input class="btn btn-primary"  type="submit" value="Guardar">
+    </div>
 </form>
 {% endblock %}
 {% block footer%}{{ form.media.js  }}{% endblock %}

@@ -120,8 +120,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SELECT2_CSS = 'assets/css/select2.min.css'
-SELECT2_JS = 'assets/js/select2.min.js'
+SELECT2_CSS = 'css/select2.min.css'
+SELECT2_JS = 'js/select2.min.js'
 SELECT2_I18N_PATH = 'assets/js/i18n'
 
 

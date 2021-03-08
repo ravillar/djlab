@@ -6,14 +6,13 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
+    path('resultado', ResultadoView.as_view(), name='resultado'),
+    path('carga', CargaView.as_view(), name='carga'),
     path('unidades', UnidadListView.as_view(), name='unidad-list'),
-    # path('unidades', UnidadListView.as_view(), name='unidad-list'),
-    # path('unidades', UnidadListView.as_view(), name='unidad-list'),
-    # path('<int:pk>/', DetailView.as_view(), name='detail'),
     path('unidades/crear/', UnidadCreate.as_view(),name="unidad-create" ),
     path('unidades/<int:pk>/editar/', UnidadUpdate.as_view(),name="unidad-edit" ),
     path('unidades/<int:pk>/eliminar/', UnidadDelete.as_view(),name="unidad-delete" ),
-    # path('<int:pk>/results/', views.ResultsView.as_view(), )
+
     path('pruebas', PruebaListView.as_view(), name='prueba-list'),
     path('pruebas/crear/', PruebaCreate.as_view(),name="prueba-create" ),
     path('pruebas/<int:pk>/editar/', PruebaUpdate.as_view(),name="prueba-edit" ),
@@ -31,10 +30,11 @@ urlpatterns = [
     path('ordenes/<int:pk>/eliminar/', OrdenDelete.as_view(),name="orden-delete" ),
 
     path('login/', auth_views.LoginView.as_view(),  name='login'),
+
     path('logout/', auth_views.LogoutView.as_view(),  name='logout'),
     path('changepass/', changepass,  name='changepass'),
     # path('change-password/', auth_views.PasswordChangeView.as_view(), name='change-password'),
     # path('password_change/done/', auth_views.PasswordChangeView.as_view(), name='password_change_done'),
-    path("register/", register, name="register"),
+    # path("register/", register, name="register"),
 
 ]

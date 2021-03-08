@@ -1,15 +1,11 @@
-{% extends "base.html" %}
-{% block title%}Unidad{% endblock %}
-{% block content %}
+{% extends "layout-common.html" %}
 {% load crispy_forms_tags %}
-{% if object == None %}
-    <h1>Crear Unidad</h1>
-{% else %}
-    <h1>Editar Unidad</h1>
-{% endif %}
+{% block content %}
 <form method="post">{% csrf_token %}
     {{ form|crispy  }}
-    <input type="submit" value="Guardar">
-    <input type="button" value="Cancelar" onclick="location.href='{%url 'unidad-list'%}'">
+    <div class="modal-footer">
+    <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'unidad-list'%}'">
+    <input class="btn btn-primary"  type="submit" value="Guardar">
+    </div>
 </form>
 {% endblock %}

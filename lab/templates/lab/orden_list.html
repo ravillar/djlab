@@ -1,18 +1,35 @@
-{% extends "base.html" %}
-{% block title%}Órdenes{% endblock %}
+{# {% extends "base.html" %} #}
+{% extends "layout-common.html" %}
+{% block btn_nuevo%}<a class="badge badge-primary mb-1" href="{% url 'orden-create' %}">Crear {{aux.singular}}</a>{% endblock %}
 {% block content %}
-<h1>Órdenes</h1>
-<h3>
-    <a href="{% url 'orden-create' %}">Nueva Orden</a> 
-</h3>
-<ul>
-    {% for orden in object_list %}
-        <li>{{ orden.fecha_alta  }} - {{ orden.paciente  }}
-            <a href="{% url 'orden-edit' orden.id %}">Editar</a> 
-            <a href="{% url 'orden-delete' orden.id %}">Eliminar</a> 
-        </li>
-        {% empty %}
-        <li>No hay órdenes todavía.</li>
-    {% endfor %}
-</ul>
+
+<div class="table-responsive">
+    <table class="table table-hover mb-0">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Fecha</th>
+                <th>Paciente</th>
+                <th>Acciones</th>
+                </tr>
+        </thead>
+        <tbody>
+        {% for orden in object_list %}
+           <tr>
+                <td>{{ orden.pk  }}</td>
+                <td>{{ orden.fecha_alta|date:'d-m-Y H:i'  }}</td>
+                <td>{{ orden.paciente.apellido }} {{ orden.paciente.nombre }}</td> 
+                <td>
+                <a href="{% url 'orden-edit' orden.id %}" title="Editar"><i class="ik ik-edit f-16 mr-15 text-green"></i></a> 
+                <a href="{% url 'orden-delete' orden.id %}" title="Eliminar"><i class="ik ik-trash-2 f-16 text-red"></i></a> 
+                </td>
+            {% empty %}
+            <td colspan="3">No hay órdenes todavía.</td>
+        {% endfor %} 
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
 {% endblock %}
