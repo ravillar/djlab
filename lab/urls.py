@@ -3,7 +3,9 @@ from django.urls import reverse_lazy
 # from . import views
 from lab.views import * #HomePageView, UnidadListView
 from django.contrib.auth import views as auth_views
-
+from django.conf.urls import (
+        handler400, handler403, handler404, handler500
+        )
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
     path('resultado', ResultadoView.as_view(), name='resultado'),
@@ -38,3 +40,4 @@ urlpatterns = [
     # path("register/", register, name="register"),
 
 ]
+

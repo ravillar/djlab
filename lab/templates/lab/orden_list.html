@@ -3,6 +3,7 @@
 {% block btn_nuevo%}<a class="badge badge-primary mb-1" href="{% url 'orden-create' %}">Crear {{aux.singular}}</a>{% endblock %}
 {% block content %}
 
+{% include "lab/filtro.html" %}
 <div class="table-responsive">
     <table class="table table-hover mb-0">
         <thead>

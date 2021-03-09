@@ -1,17 +1,13 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import login, authenticate, update_session_auth_hash
-# from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.mixins import LoginRequiredMixin
-# Create your views here.
-# from django.http import HttpResponse
-# def index(request):
-#     return HttpResponse('Hello, world. You\'re at the lab index.<br><a href="unidad">Unidad</a>')
 
+from django.views import View
 from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
 from lab.models import Unidad, Prueba, Paciente, Orden
-
+from django.db.models import Q
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 from django.urls import reverse_lazy
@@ -63,14 +59,25 @@ class UnidAux():
         context = super().get_context_data(**kwargs)
         context['aux'] = aux_ctx['unidad']
         return context
-class UnidadListView(UnidAux, LaboratorioRequired,ListView):
-    model = Unidad
-    # paginate_by = 100  # if pagination is desired
 
-    # def get_context_data(self, **kwargs):
-    #     context = super().get_context_data(**kwargs)
-    #     context['now'] = timezone.now()
-    #     return context
+class UnidadListView(LaboratorioRequired, View):
+    template_name = "lab/unidad_list.html"
+
+    def get(self, request) :
+        strval =  request.GET.get("filtrar", False)
+        if strval :
+            # Simple title-only search
+            # objects = Post.objects.filter(title__contains=strval).select_related().order_by('-updated_at')[:10]
+
+            # Multi-field search
+            # __icontains for case-insensitive search
+            query = Q(sigla__icontains=strval)
+            query.add(Q(descrip__icontains=strval), Q.OR)
+            objects = Unidad.objects.filter(query).select_related().order_by('id')#[:10]
+        else :
+            objects = Unidad.objects.all().order_by('pk')#[:10]
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['unidad']}
+        return render(request, self.template_name, ctx)
 
 class UnidadCreate(UnidAux, LaboratorioRequired,CreateView):
     model = Unidad
@@ -98,8 +105,20 @@ class PrueAux():
         context = super().get_context_data(**kwargs)
         context['aux'] = aux_ctx['prueba']
         return context
-class PruebaListView(PrueAux, LaboratorioRequired,ListView):
-    model = Prueba
+
+class PruebaListView(LaboratorioRequired, View):
+    template_name = "lab/prueba_list.html"
+    def get(self, request) :
+        strval =  request.GET.get("filtrar", False)
+        if strval :
+            query = Q(nombre__icontains=strval)
+            query.add(Q(unidad__sigla__icontains=strval), Q.OR)
+            query.add(Q(unidad__descrip__icontains=strval), Q.OR)
+            objects = Prueba.objects.filter(query).select_related().order_by('id')
+        else :
+            objects = Prueba.objects.all().order_by('pk')
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['prueba']}
+        return render(request, self.template_name, ctx)
 class PruebaCreate(PrueAux, LaboratorioRequired,CreateView):
     model = Prueba
     fields = '__all__' #['nombre', 'unidad', 'minimo', 'maximo']
@@ -114,19 +133,25 @@ class PruebaUpdate(PrueAux, LaboratorioRequired,UpdateView):
 class PruebaDelete(PrueAux, LaboratorioRequired,DeleteView):
     model = Prueba
     success_url = reverse_lazy('prueba-list')
-    # def post(self, request, *args, **kwargs):
-    #     if "cancel" in request.POST:
-    #         url = self.get_success_url()
-    #         return HttpResponseRedirect(url)
-    #     else:
-    #         return super(UnidadDelete, self).post(request, *args, **kwargs)
 class PacAux():
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['aux'] = aux_ctx['paciente']
         return context
-class PacienteListView(PacAux, RecepcionRequired,ListView):
-    model = Paciente
+class PacienteListView(RecepcionRequired, View):
+    template_name = "lab/paciente_list.html"
+    def get(self, request) :
+        strval =  request.GET.get("filtrar", False)
+        if strval :
+            query = Q(nombre__icontains=strval)
+            query.add(Q(apellido__icontains=strval), Q.OR)
+            query.add(Q(email__icontains=strval), Q.OR)
+            query.add(Q(telefono__icontains=strval), Q.OR)
+            objects = Paciente.objects.filter(query).select_related().order_by('id')
+        else :
+            objects = Paciente.objects.all().order_by('pk')
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['paciente']}
+        return render(request, self.template_name, ctx)
 class PacienteCreate(PacAux, RecepcionRequired,CreateView):
     model = Paciente
     form_class = forms.PacienteForm
@@ -148,9 +173,18 @@ class OrdAux():
         context = super().get_context_data(**kwargs)
         context['aux'] = aux_ctx['orden']
         return context
-class OrdenListView(OrdAux, RecepcionRequired,ListView):
-    model = Orden
-    ordering = ['-fecha_alta']
+class OrdenListView(RecepcionRequired, View):
+    template_name = "lab/orden_list.html"
+    def get(self, request) :
+        strval =  request.GET.get("filtrar", False)
+        if strval :
+            query = Q(paciente__nombre__icontains=strval)
+            query.add(Q(paciente__apellido__icontains=strval), Q.OR)
+            objects = Orden.objects.filter(query).select_related().order_by('-fecha_alta')
+        else :
+            objects = Orden.objects.all().order_by('-fecha_alta')
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['orden']}
+        return render(request, self.template_name, ctx)
 
 class OrdenCreate(OrdAux, RecepcionRequired,CreateView):
     model = Orden
@@ -197,7 +231,6 @@ def changepass(request):
     else:
         form = forms.ChangepassForm(request.user)
     return render(request, 'registration/change_password.html', {'form': form})
-
 
 
 
