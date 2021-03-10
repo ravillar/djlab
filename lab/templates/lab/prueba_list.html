@@ -1,8 +1,8 @@
 {% extends "layout-common.html" %}
-{% block btn_nuevo%}<a class="badge badge-primary mb-1" href="{% url 'prueba-create' %}">Crear {{aux.singular}}</a>{% endblock %}
+{% block btn_nuevo%}<a class="btn btn-primary" href="{% url 'prueba-create' %}"><i class="{{aux.icon}}"></i>Crear {{aux.singular}}</a>{% endblock %}
+{% block filtro%}{% include "lab/filtro.html" %}{% endblock %}
 {% block content %}
 
-{% include "lab/filtro.html" %}
 
 <div class="table-responsive">
     <table class="table table-hover mb-0">
@@ -36,4 +36,5 @@
         </tbody>
     </table>
 </div>
+{% include "lab/paginado.html" %}
 {% endblock %}
