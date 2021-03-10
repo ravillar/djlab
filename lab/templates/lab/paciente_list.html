@@ -27,8 +27,8 @@
                 <td>{{ paciente.email|default_if_none:''  }}</td> 
                 <td>{{ paciente.telefono|default_if_none:''  }}</td> 
                 <td>
-                <a href="{% url 'paciente-edit' paciente.id %}" title="Editar"><i class="ik ik-edit f-16 mr-15 text-green"></i></a> 
-                <a href="{% url 'paciente-delete' paciente.id %}" title="Eliminar"><i class="ik ik-trash-2 f-16 text-red"></i></a> 
+                <a href="{% url 'paciente-edit' paciente.id %}" title="Editar"><i class="fas fa-edit  f-16 mr-15 text-green"></i></a> 
+                <a href="{% url 'paciente-delete' paciente.id %}" title="Eliminar"><i class="fas fa-trash-alt f-16 text-red"></i></a> 
                 </td>
             {% empty %}
             <td colspan="3">No hay pacientes todavía.</td>

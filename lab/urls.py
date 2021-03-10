@@ -8,8 +8,10 @@ from django.conf.urls import (
         )
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
-    path('resultado', ResultadoView.as_view(), name='resultado'),
+    path('resultados', ResultadoView.as_view(), name='resultado'),
+    path('resultados/<int:pk>/', UnidadUpdate.as_view(),name="resultado-ver" ),
     path('carga', CargaView.as_view(), name='carga'),
+    path('carga/<int:pk>/', UnidadUpdate.as_view(),name="carga-edit" ),
     path('unidades', UnidadListView.as_view(), name='unidad-list'),
     path('unidades/crear/', UnidadCreate.as_view(),name="unidad-create" ),
     path('unidades/<int:pk>/editar/', UnidadUpdate.as_view(),name="unidad-edit" ),

@@ -1,8 +1,13 @@
 {% extends "layout-common.html" %}
 
-{% block btn_nuevo%}<a class="btn btn-primary" href="{% url 'orden-create' %}"><i class="{{aux.icon}}"></i>Crear {{aux.singular}}</a>{% endblock %}
+
+{% block btn_nuevo%}
+    {% if tipo == 'O' %}<a class="btn btn-primary" href="{% url 'orden-create' %}"><i class="{{aux.icon}}"></i>Crear {{aux.singular}}</a>{% endif %}
+{% endblock %}
+
 {% block filtro%}{% include "lab/filtro.html" %}{% endblock %}
 {% block content %}
+
 <div class="table-responsive">
     <table class="table table-hover mb-0">
         <thead>
@@ -20,8 +25,16 @@
                 <td>{{ orden.fecha_alta|date:'d-m-Y H:i'  }}</td>
                 <td>{{ orden.paciente.apellido }} {{ orden.paciente.nombre }}</td> 
                 <td>
-                <a href="{% url 'orden-edit' orden.id %}" title="Editar"><i class="ik ik-edit f-16 mr-15 text-green"></i></a> 
-                <a href="{% url 'orden-delete' orden.id %}" title="Eliminar"><i class="ik ik-trash-2 f-16 text-red"></i></a> 
+            {% if tipo == 'O' %}
+                <a href="{% url 'orden-edit' orden.id %}" title="Editar"><i class="fas fa-edit f-16 mr-15 text-green"></i></a> 
+                <a href="{% url 'orden-delete' orden.id %}" title="Eliminar"><i class="fas fa-trash-alt f-16 text-red"></i></a> 
+            {% endif %}
+            {% if tipo == 'R' %}
+                <a href="{% url 'resultado-ver' orden.id %}" title="Ver resultado" class="btn btn-primary"><i class="{{aux.icon}}"></i>Ver</a> 
+            {% endif %}
+            {% if tipo == 'C' %}
+                <a href="{% url 'carga-edit' orden.id %}" title="Cargar resultado"><i class="fas fa-edit f-16 mr-15 text-green"></i></a> 
+            {% endif %}
                 </td>
             {% empty %}
             <td colspan="3">No hay órdenes todavía.</td>

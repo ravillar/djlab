@@ -21,8 +21,8 @@
                 <td>{{ unidad.sigla  }}</td>
                 <td>{{ unidad.descrip|default_if_none:''   }}</td> 
                 <td>
-                <a href="{% url 'unidad-edit' unidad.id %}" title="Editar"><i class="ik ik-edit f-16 mr-15 text-green"></i></a> 
-                <a href="{% url 'unidad-delete' unidad.id %}" title="Eliminar"><i class="ik ik-trash-2 f-16 text-red"></i></a> 
+                <a href="{% url 'unidad-edit' unidad.id %}" title="Editar"><i class="fas fa-edit f-16 mr-15 text-green"></i></a> 
+                <a href="{% url 'unidad-delete' unidad.id %}" title="Eliminar"><i class="fas fa-trash-alt f-16 text-red"></i></a> 
                 </td>
             {% empty %}
             <td colspan="3">No hay unidades todavía.</td>

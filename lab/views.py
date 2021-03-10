@@ -16,16 +16,16 @@ from . import forms
 from rolepermissions.mixins import HasRoleMixin
 from django.core.paginator import Paginator
 
-aux_ctx = {
+AUX_CTX = {
         'home':{'url':reverse_lazy('home'), 'icon':'fas fa-home', 'titulo':'Home', 'singular':'', 'descrip':'Bienvenido al Sistema Lab !!'},
         'unidad':{'url':reverse_lazy('unidad-list'), 'icon':'fas fa-ruler-combined', 'titulo':'Unidades', 'singular':'Unidad', 'descrip':'En las que se expresan las mediciones de las pruebas de laboratorio'},
         'prueba':{'url':reverse_lazy('prueba-list'), 'icon':'fas fa-microscope', 'titulo':'Pruebas', 'singular':'Prueba', 'descrip':'Prácticas de laboratorio'},
         'paciente':{'url':reverse_lazy('paciente-list'), 'icon':'fas fa-id-card', 'titulo':'Pacientes', 'singular':'Paciente', 'descrip':'Registro de personas a las que se le tomaron las muestras'},
         'orden':{'url':reverse_lazy('orden-list'), 'icon':'fas fa-file-medical', 'titulo':'Órdenes', 'singular':'Orden', 'descrip':'Estudios solicitados por profesionales médicos'},
-        'resultado':{'url':reverse_lazy('home'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
-        'carga':{'url':reverse_lazy('home'), 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
+        'resultado':{'url':reverse_lazy('resultado'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
+        'carga':{'url':reverse_lazy('carga'), 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
 }
-pag_cant_filas=10
+PAG_CANT_FILAS=10
 
 # para ser heredada por las clases de views genéricas que requieren autenticación
 class LoginRequired(LoginRequiredMixin):
@@ -41,25 +41,13 @@ class HomePageView(LoginRequired, TemplateView):
     template_name = "lab/home.html"
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['home']
-        return context
-class ResultadoView(LoginRequired, TemplateView):
-    template_name = "lab/home.html"
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['resultado']
-        return context
-class CargaView(LoginRequired, TemplateView):
-    template_name = "lab/home.html"
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['carga']
+        context['aux'] = AUX_CTX['home']
         return context
 
 class UnidAux():
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['unidad']
+        context['aux'] = AUX_CTX['unidad']
         return context
 
 class UnidadListView(LaboratorioRequired, View):
@@ -79,11 +67,11 @@ class UnidadListView(LaboratorioRequired, View):
             objects = Unidad.objects.filter(query).select_related().order_by('id')#[:10]
         else :
             objects = Unidad.objects.all().order_by('pk')#[:10]
-        paginator = Paginator(objects, pag_cant_filas)
+        paginator = Paginator(objects, PAG_CANT_FILAS)
         objects = paginator.get_page(pag_nro)
         pags = list(range(1,objects.paginator.num_pages+1 ))
         f = '&filtrar='+strval if strval else '' #GET query param
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['unidad'],'pags':pags, 'f':f}
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':AUX_CTX['unidad'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 
 class UnidadCreate(UnidAux, LaboratorioRequired,CreateView):
@@ -110,7 +98,7 @@ class UnidadDelete(UnidAux, LaboratorioRequired,DeleteView):
 class PrueAux():
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['prueba']
+        context['aux'] = AUX_CTX['prueba']
         return context
 
 class PruebaListView(LaboratorioRequired, View):
@@ -125,11 +113,11 @@ class PruebaListView(LaboratorioRequired, View):
             objects = Prueba.objects.filter(query).select_related().order_by('id')
         else :
             objects = Prueba.objects.all().order_by('pk')
-        paginator = Paginator(objects, pag_cant_filas)
+        paginator = Paginator(objects, PAG_CANT_FILAS)
         objects = paginator.get_page(pag_nro)
         pags = list(range(1,objects.paginator.num_pages+1 ))
         f = '&filtrar='+strval if strval else '' #GET query param
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['prueba'],'pags':pags, 'f':f}
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':AUX_CTX['prueba'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 class PruebaCreate(PrueAux, LaboratorioRequired,CreateView):
     model = Prueba
@@ -148,7 +136,7 @@ class PruebaDelete(PrueAux, LaboratorioRequired,DeleteView):
 class PacAux():
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['paciente']
+        context['aux'] = AUX_CTX['paciente']
         return context
 class PacienteListView(RecepcionRequired, View):
     template_name = "lab/paciente_list.html"
@@ -163,11 +151,11 @@ class PacienteListView(RecepcionRequired, View):
             objects = Paciente.objects.filter(query).select_related().order_by('id')
         else :
             objects = Paciente.objects.all().order_by('pk')
-        paginator = Paginator(objects, pag_cant_filas)
+        paginator = Paginator(objects, PAG_CANT_FILAS)
         objects = paginator.get_page(pag_nro)
         pags = list(range(1,objects.paginator.num_pages+1 ))
         f = '&filtrar='+strval if strval else '' #GET query param
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['paciente'],'pags':pags, 'f':f}
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':AUX_CTX['paciente'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 class PacienteCreate(PacAux, RecepcionRequired,CreateView):
     model = Paciente
@@ -188,11 +176,11 @@ class PacienteDelete(PacAux, RecepcionRequired,DeleteView):
 class OrdAux():
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['aux'] = aux_ctx['orden']
+        context['aux'] = AUX_CTX['orden']
         return context
-class OrdenListView(RecepcionRequired, View):
+class OrdenResuListView(View):
     template_name = "lab/orden_list.html"
-    def get(self, request) :
+    def get(self, request, tipo, aux) :
         strval =  request.GET.get("filtrar", False)
         pag_nro = request.GET.get('pag')
         if strval :
@@ -201,13 +189,17 @@ class OrdenListView(RecepcionRequired, View):
             objects = Orden.objects.filter(query).select_related().order_by('-fecha_alta')
         else :
             objects = Orden.objects.all().order_by('-fecha_alta')
-        paginator = Paginator(objects, pag_cant_filas)
+        paginator = Paginator(objects, PAG_CANT_FILAS)
         objects = paginator.get_page(pag_nro)
         pags = list(range(1,objects.paginator.num_pages+1 ))
         f = '&filtrar='+strval if strval else '' #GET query param
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['orden'],'pags':pags, 'f':f}
+
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux,'pags':pags, 'f':f, 'tipo':tipo}
         return render(request, self.template_name, ctx)
 
+class OrdenListView(OrdenResuListView, RecepcionRequired, View):
+    def get(self, request) :
+        return super().get(request, 'O', AUX_CTX['orden'])
 class OrdenCreate(OrdAux, RecepcionRequired,CreateView):
     model = Orden
     # fields = '__all__'
@@ -224,6 +216,12 @@ class OrdenDelete(OrdAux, RecepcionRequired,DeleteView):
     model = Orden
     success_url = reverse_lazy('orden-list')
 
+class CargaView(OrdenResuListView, LaboratorioRequired, View):
+    def get(self, request) :
+        return super().get(request, 'C', AUX_CTX['carga'])
+class ResultadoView(OrdenResuListView, View):
+    def get(self, request) :
+        return super().get(request, 'R', AUX_CTX['resultado'])
 def register(request):
     if request.method == "POST":
         form = forms.RegisterForm(request.POST)
