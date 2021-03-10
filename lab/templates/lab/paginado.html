@@ -1,0 +1,41 @@
+<nav aria-label="Paginado">
+	<ul class="pagination mb-0 nav justify-content-center">
+        {% if object_list.has_previous %}
+		<li class="page-item">
+			<a class="page-link first" href="?pag=1{{ f}}">
+				<i class="ik ik-chevrons-left"></i>
+			</a>
+		</li>
+		<li class="page-item">
+			<a class="page-link prev" href="?pag={{ object_list.previous_page_number }}{{ f}}">
+				<i class="ik ik-chevron-left"></i>
+			</a>
+		</li>
+        {% endif %}
+        {% for p in pags %}
+            {% if p == object_list.number %}
+                <li class="page-item active disabled">
+                    <b class="page-link">{{p }}</b>
+                </li>
+            {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="?pag={{p }}{{ f}}">{{p }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+
+        {% if object_list.has_next %}
+            <li class="page-item">
+                <a class="page-link next" href="?pag={{ object_list.next_page_number }}{{ f}}" aria-label="Next">
+                    <i class="ik ik-chevron-right"></i>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link last" href="?pag={{ object_list.paginator.num_pages }}{{ f}}">
+                    <i class="ik ik-chevrons-right"></i>
+                </a>
+            </li>
+        {% endif %}
+	</ul>
+</nav>
+

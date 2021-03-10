@@ -14,6 +14,7 @@ from django.urls import reverse_lazy
 from . import forms
 
 from rolepermissions.mixins import HasRoleMixin
+from django.core.paginator import Paginator
 
 aux_ctx = {
         'home':{'url':reverse_lazy('home'), 'icon':'fas fa-home', 'titulo':'Home', 'singular':'', 'descrip':'Bienvenido al Sistema Lab !!'},
@@ -24,6 +25,7 @@ aux_ctx = {
         'resultado':{'url':reverse_lazy('home'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
         'carga':{'url':reverse_lazy('home'), 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
 }
+pag_cant_filas=10
 
 # para ser heredada por las clases de views genéricas que requieren autenticación
 class LoginRequired(LoginRequiredMixin):
@@ -65,6 +67,7 @@ class UnidadListView(LaboratorioRequired, View):
 
     def get(self, request) :
         strval =  request.GET.get("filtrar", False)
+        pag_nro = request.GET.get('pag')
         if strval :
             # Simple title-only search
             # objects = Post.objects.filter(title__contains=strval).select_related().order_by('-updated_at')[:10]
@@ -76,7 +79,11 @@ class UnidadListView(LaboratorioRequired, View):
             objects = Unidad.objects.filter(query).select_related().order_by('id')#[:10]
         else :
             objects = Unidad.objects.all().order_by('pk')#[:10]
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['unidad']}
+        paginator = Paginator(objects, pag_cant_filas)
+        objects = paginator.get_page(pag_nro)
+        pags = list(range(1,objects.paginator.num_pages+1 ))
+        f = '&filtrar='+strval if strval else '' #GET query param
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['unidad'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 
 class UnidadCreate(UnidAux, LaboratorioRequired,CreateView):
@@ -110,6 +117,7 @@ class PruebaListView(LaboratorioRequired, View):
     template_name = "lab/prueba_list.html"
     def get(self, request) :
         strval =  request.GET.get("filtrar", False)
+        pag_nro = request.GET.get('pag')
         if strval :
             query = Q(nombre__icontains=strval)
             query.add(Q(unidad__sigla__icontains=strval), Q.OR)
@@ -117,7 +125,11 @@ class PruebaListView(LaboratorioRequired, View):
             objects = Prueba.objects.filter(query).select_related().order_by('id')
         else :
             objects = Prueba.objects.all().order_by('pk')
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['prueba']}
+        paginator = Paginator(objects, pag_cant_filas)
+        objects = paginator.get_page(pag_nro)
+        pags = list(range(1,objects.paginator.num_pages+1 ))
+        f = '&filtrar='+strval if strval else '' #GET query param
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['prueba'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 class PruebaCreate(PrueAux, LaboratorioRequired,CreateView):
     model = Prueba
@@ -142,6 +154,7 @@ class PacienteListView(RecepcionRequired, View):
     template_name = "lab/paciente_list.html"
     def get(self, request) :
         strval =  request.GET.get("filtrar", False)
+        pag_nro = request.GET.get('pag')
         if strval :
             query = Q(nombre__icontains=strval)
             query.add(Q(apellido__icontains=strval), Q.OR)
@@ -150,7 +163,11 @@ class PacienteListView(RecepcionRequired, View):
             objects = Paciente.objects.filter(query).select_related().order_by('id')
         else :
             objects = Paciente.objects.all().order_by('pk')
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['paciente']}
+        paginator = Paginator(objects, pag_cant_filas)
+        objects = paginator.get_page(pag_nro)
+        pags = list(range(1,objects.paginator.num_pages+1 ))
+        f = '&filtrar='+strval if strval else '' #GET query param
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['paciente'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 class PacienteCreate(PacAux, RecepcionRequired,CreateView):
     model = Paciente
@@ -177,13 +194,18 @@ class OrdenListView(RecepcionRequired, View):
     template_name = "lab/orden_list.html"
     def get(self, request) :
         strval =  request.GET.get("filtrar", False)
+        pag_nro = request.GET.get('pag')
         if strval :
             query = Q(paciente__nombre__icontains=strval)
             query.add(Q(paciente__apellido__icontains=strval), Q.OR)
             objects = Orden.objects.filter(query).select_related().order_by('-fecha_alta')
         else :
             objects = Orden.objects.all().order_by('-fecha_alta')
-        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['orden']}
+        paginator = Paginator(objects, pag_cant_filas)
+        objects = paginator.get_page(pag_nro)
+        pags = list(range(1,objects.paginator.num_pages+1 ))
+        f = '&filtrar='+strval if strval else '' #GET query param
+        ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux_ctx['orden'],'pags':pags, 'f':f}
         return render(request, self.template_name, ctx)
 
 class OrdenCreate(OrdAux, RecepcionRequired,CreateView):

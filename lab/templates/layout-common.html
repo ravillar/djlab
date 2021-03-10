@@ -96,7 +96,6 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                        {% block btn_nuevo %}{% endblock %}
                                 </div>
                             </div>
                         </div>
@@ -106,6 +105,14 @@
                                 <div class="card table-card">
                                     <div class="card-body">
 
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                            {% block btn_nuevo %}{% endblock %}
+                                            </div>
+                                            <div class="col-sm-6">
+                                                            {% block filtro %}{% endblock %}
+                                            </div>
+                                        </div>
                         {% block content %}{% endblock %}
 
 
