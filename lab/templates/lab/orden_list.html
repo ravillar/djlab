@@ -22,7 +22,7 @@
         {% for orden in object_list %}
            <tr>
                 <td>{{ orden.pk  }}</td>
-                <td>{{ orden.fecha_alta|date:'d-m-Y H:i'  }}</td>
+                <td>{{ orden.fecha_alta|date:'d/m/Y H:i'  }}</td>
                 <td>{{ orden.paciente.apellido }} {{ orden.paciente.nombre }}</td> 
                 <td>
             {% if tipo == 'O' %}
@@ -30,14 +30,14 @@
                 <a href="{% url 'orden-delete' orden.id %}" title="Eliminar"><i class="fas fa-trash-alt f-16 text-red"></i></a> 
             {% endif %}
             {% if tipo == 'R' %}
-                <a href="{% url 'resultado-ver' orden.id %}" title="Ver resultado" class="btn btn-primary"><i class="{{aux.icon}}"></i>Ver</a> 
+                <a href="{% url 'resultado-ver' orden.id %}" target="_blank" title="Ver resultado" class="btn btn-primary"><i class="{{aux.icon}}"></i>Ver</a> 
             {% endif %}
             {% if tipo == 'C' %}
                 <a href="{% url 'carga-edit' orden.id %}" title="Cargar resultado"><i class="fas fa-edit f-16 mr-15 text-green"></i></a> 
             {% endif %}
                 </td>
             {% empty %}
-            <td colspan="3">No hay órdenes todavía.</td>
+            <td colspan="4">No hay registros disponibles.</td>
         {% endfor %} 
             </tr>
 

@@ -1,0 +1,69 @@
+{% extends "layout-common.html" %}
+{% load l10n %}
+
+
+{% block content %}
+         <div id="conteInfo" class="row invoice-info">
+             <div class="col-sm-4 invoice-col">Orden: <strong>{{orden.id}}</strong></div>
+             <div class="col-sm-4 invoice-col"><small>FECHA:</small> {{orden.fecha_alta|date:'d/m/Y H:i'}}</div>
+             <div class="col-sm-4 invoice-col"><small>DNI:</small> {{paciente.dni}}</div>
+             <div class="col-sm-4 invoice-col"><small>APELLIDO:</small> {{paciente.apellido}}</div>
+             <div class="col-sm-4 invoice-col"><small>NOMBRE:</small> {{paciente.nombre}}</div>
+             <div class="col-sm-4 invoice-col"><small>EDAD:</small> {{edad}}</div>
+         </div>
+         <hr>
+         <h5>Valores obtenidos</h5>
+         <hr>
+				<div class="row even">
+					<h6 class="col-sm-3">Prueba</h6>
+					<h6 class="col-sm-3">Valor</h6>
+					<h6 class="col-sm-3">Unidad</h6>
+					<h6 class="col-sm-3">Valores de referencia</h6>
+				</div>
+
+			 {% for r in res %}
+				<div class="form-group row odd">
+					<label for="val{{r.id}}" class="col-sm-3 col-form-label">{{r.prueba.nombre}}</label>
+					<div class="col-sm-3">
+                        <input data-id="{{r.id}}" type="number" step="0.01" class="valor form-control" id="val{{r.id}}" placeholder="Valor" value="{{ r.valor|unlocalize   }}" >
+					</div>
+					<div class="col-sm-3 col-form-label">{{r.prueba.unidad}}</div>
+					<div class="col-sm-3 col-form-label">{{r.prueba.minimo}}-{{r.prueba.maximo}}</div>
+				</div>
+			 {% endfor %}
+
+            <form id="frmCarga" method="post">
+{% csrf_token %}
+            <div class="modal-footer">
+        <input id="valores" name="valores" type="hidden">
+        <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'carga'%}'">
+        <input class="btn btn-primary"  type="submit" value="Guardar">
+        </div>
+
+			</form>
+
+
+{% endblock %}
+
+{% block footer %}
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#frmCarga').on('submit', function(evt){
+            valores=$('#valores').val()
+            if(valores==''){
+                evt.preventDefault()
+                $('#valores').val(JSON.stringify(resInputs2obj()))
+                $(this).submit();
+            }
+        })
+    })
+function resInputs2obj(){
+    var obj={}
+    $('.valor').each(function(k,el){
+        obj[$(el).data('id')]=el.value
+    }) 
+    return obj
+}
+</script>
+{% endblock %}

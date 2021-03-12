@@ -2,12 +2,13 @@
 {% block content %}
 {% load crispy_forms_tags %}
 {{ form.media.css  }}
-<form method="post">{% csrf_token %}
-    {{ form|crispy  }}
-    <div class="modal-footer">
-    <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'paciente-list'%}'">
-    <input class="btn btn-primary"  type="submit" value="Guardar">
-    </div>
-</form>
+<!-- <form method="post">{#% csrf_token %#} -->
+    {#{ form|crispy  }#}
+    {% crispy form %}
+    <!-- <div class="modal-footer"> -->
+    <!-- <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'paciente-list'%}'"> -->
+    <!-- <input class="btn btn-primary"  type="submit" value="Guardar"> -->
+    <!-- </div> -->
+<!-- </form> -->
 {% endblock %}
 {% block footer%}{{ form.media.js  }}{% endblock %}

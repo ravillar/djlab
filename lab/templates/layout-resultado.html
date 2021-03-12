@@ -1,0 +1,102 @@
+{% load permission_tags %}
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Lab::{{aux.titulo}}</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
+
+        <link rel="stylesheet" href="{% static 'css/fa.min.css' %} ">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        
+        <link rel="stylesheet" href="{% static 'css/theme.min.css' %} ">
+
+        <style type="text/css">
+            body{background-color:#ccc;}
+            td{width:25%}
+            .table td, .table th{padding:.2em}
+            #resultado{width:768px;margin:auto;}
+            #headResu{margin-left:auto;margin-right:auto;}
+            #headResu img{width:758px;}
+            pre {
+            overflow-x: auto;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            }
+            .firma{width:13em;}
+        </style>
+    </head>
+
+    <body >
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<div id="resultado" class="card">
+     <div id="headResu">
+                 <img  src="{% static 'img/header-resu.png' %}">
+                 <hr>
+     </div>
+     <div class="card-body">
+         <div id="conteInfo" class="row invoice-info">
+             <div class="col-sm-4 invoice-col">Orden: <strong>{{orden.id}}</strong></div>
+             <div class="col-sm-4 invoice-col"><small>FECHA:</small> {{orden.fecha_alta|date:'d/m/Y H:i'}}</div>
+             <div class="col-sm-4 invoice-col"><small>DNI:</small> {{paciente.dni}}</div>
+             <div class="col-sm-4 invoice-col"><small>APELLIDO:</small> {{paciente.apellido}}</div>
+             <div class="col-sm-4 invoice-col"><small>NOMBRE:</small> {{paciente.nombre}}</div>
+             <div class="col-sm-4 invoice-col"><small>EDAD:</small> {{edad}}</div>
+         </div>
+                 <br>
+         <div class="row">
+             <div id="conteRes" class="col-12 table-responsive">
+                 
+
+                 <table class="table table-striped">
+                     <thead>
+                         <tr>
+                             <td colspan="5" style="text-align:center"><h6><strong>Estudios realizados</strong></h6></td>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                            <td>Estudio</td><td>Valor obtenido</td><td>Valores de referencia</td><td style="text-align:center">Unidad</td>
+                         </tr>
+                         {% for r in res %}
+                         
+                         <tr><td>{{r.prueba.nombre}}</td><td><strong>{{r.prueba.valor}}</strong></td><td>{{r.prueba.minimo}}-{{r.prueba.maximo}}</td><td
+                        style="text-align:center">{{r.prueba.unidad}}</td></tr>
+                         
+                         {% endfor %}
+                     </tbody>
+                 </table>
+
+
+
+             </div>
+         </div>
+         <div class="row">
+             <div class="col">
+             </div>
+             <div class="col">
+                 <img class="firma" src="{% static 'img/firma.png' %}">
+             </div>
+         </div>
+     </div>
+ </div>
+                        {% block content %}{% endblock %}
+
+        <script src="{% static 'js/jquery.min.js' %} "></script>
+        <script src="{% static 'js/bootstrap.min.js' %} "></script>
+        <script src="{% static 'js/theme.min.js' %} "></script>
+        {% block footer %}{% endblock %}
+    </body>
+</html>
+

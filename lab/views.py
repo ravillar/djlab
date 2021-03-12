@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth import login, authenticate, update_session_auth_hash
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -6,26 +6,18 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views import View
 from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
-from lab.models import Unidad, Prueba, Paciente, Orden
+from lab.models import Unidad, Prueba, Paciente, Orden, Resultado
 from django.db.models import Q
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 from django.urls import reverse_lazy
 from . import forms
-
+import json
 from rolepermissions.mixins import HasRoleMixin
 from django.core.paginator import Paginator
 
-AUX_CTX = {
-        'home':{'url':reverse_lazy('home'), 'icon':'fas fa-home', 'titulo':'Home', 'singular':'', 'descrip':'Bienvenido al Sistema Lab !!'},
-        'unidad':{'url':reverse_lazy('unidad-list'), 'icon':'fas fa-ruler-combined', 'titulo':'Unidades', 'singular':'Unidad', 'descrip':'En las que se expresan las mediciones de las pruebas de laboratorio'},
-        'prueba':{'url':reverse_lazy('prueba-list'), 'icon':'fas fa-microscope', 'titulo':'Pruebas', 'singular':'Prueba', 'descrip':'Prácticas de laboratorio'},
-        'paciente':{'url':reverse_lazy('paciente-list'), 'icon':'fas fa-id-card', 'titulo':'Pacientes', 'singular':'Paciente', 'descrip':'Registro de personas a las que se le tomaron las muestras'},
-        'orden':{'url':reverse_lazy('orden-list'), 'icon':'fas fa-file-medical', 'titulo':'Órdenes', 'singular':'Orden', 'descrip':'Estudios solicitados por profesionales médicos'},
-        'resultado':{'url':reverse_lazy('resultado'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
-        'carga':{'url':reverse_lazy('carga'), 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
-}
-PAG_CANT_FILAS=10
+from django.contrib.auth.forms import PasswordChangeForm
+from lab.util import AUX_CTX,PAG_CANT_FILAS, calculateAge
 
 # para ser heredada por las clases de views genéricas que requieren autenticación
 class LoginRequired(LoginRequiredMixin):
@@ -197,18 +189,16 @@ class OrdenResuListView(View):
         ctx = {'object_list' : objects, 'filtrar': strval, 'aux':aux,'pags':pags, 'f':f, 'tipo':tipo}
         return render(request, self.template_name, ctx)
 
-class OrdenListView(OrdenResuListView, RecepcionRequired, View):
+class OrdenListView(RecepcionRequired, OrdenResuListView, View):
     def get(self, request) :
         return super().get(request, 'O', AUX_CTX['orden'])
 class OrdenCreate(OrdAux, RecepcionRequired,CreateView):
     model = Orden
-    # fields = '__all__'
     form_class = forms.OrdenForm
     success_url = reverse_lazy('orden-list')
 
 class OrdenUpdate(OrdAux, RecepcionRequired,UpdateView):
     model = Orden
-    # fields = '__all__'
     form_class = forms.OrdenForm
     success_url = reverse_lazy('orden-list')
 
@@ -216,12 +206,46 @@ class OrdenDelete(OrdAux, RecepcionRequired,DeleteView):
     model = Orden
     success_url = reverse_lazy('orden-list')
 
-class CargaView(OrdenResuListView, LaboratorioRequired, View):
+class CargaView(LaboratorioRequired, OrdenResuListView, View):
     def get(self, request) :
         return super().get(request, 'C', AUX_CTX['carga'])
 class ResultadoView(OrdenResuListView, View):
     def get(self, request) :
         return super().get(request, 'R', AUX_CTX['resultado'])
+
+
+class ResultadoDetalleView(LoginRequired, TemplateView):
+    template_name = "layout-resultado.html"
+    def get(self, request, pk, aux=None) :
+        orden = get_object_or_404(Orden, id=pk)
+        paciente=Paciente.objects.get(id=orden.paciente.id)
+        res=Resultado.objects.filter(orden_id=pk)
+
+        edad=str(calculateAge(paciente.fecha_nac))+' años'
+        if aux==None:
+            aux = AUX_CTX['resultado']
+
+        ctx = { 'aux':aux, 'orden':orden, 'paciente':paciente, 'res':res, 'edad':edad}
+        return render(request, self.template_name, ctx)
+
+
+class CargaResultadoView(LaboratorioRequired, ResultadoDetalleView):
+    template_name = "lab/carga_resultado.html"
+    success_url = reverse_lazy('carga')
+    def get(self, request, pk) :
+        return super().get(request, pk, AUX_CTX['carga'])
+
+    def post(self, request, pk) :
+
+        obj = json.loads(request.POST.get('valores'))
+        # print(obj)
+        for k,v in obj.items():
+            # print('{}:{}'.format(k, v))
+            Resultado.objects.filter(pk=k).update(valor=v)
+        # return redirect(reverse_lazy('carga')+'/'+str(pk))
+        # return redirect(request.path)
+        return redirect(self.success_url)
+
 def register(request):
     if request.method == "POST":
         form = forms.RegisterForm(request.POST)
@@ -231,7 +255,6 @@ def register(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=raw_password)
             login(request, user)
-            # return redirect(reverse_lazy('home'))
             return redirect('home')
     else:
         form = forms.RegisterForm()
@@ -239,18 +262,18 @@ def register(request):
 
 def changepass(request):
     if request.method == 'POST':
-        form = forms.ChangepassForm(request.user, request.POST)
+        form = PasswordChangeForm(request.user, request.POST)
         if form.is_valid():
             user = form.save()
             update_session_auth_hash(request, user)  # Important!
             messages.success(request, 'Contraseña cambiada satisfactoriamente.')
-            # return redirect(reverse_lazy('home'))
-            return redirect('changepass')
+            return redirect(reverse_lazy('changepass')+'?next='+request.POST['next']+'&success=1')
         else:
             messages.error(request, 'Atienda los errores indicados.')
     else:
-        form = forms.ChangepassForm(request.user)
-    return render(request, 'registration/change_password.html', {'form': form})
+        form = PasswordChangeForm(request.user)
+    return render(request, 'registration/change_password.html', {'form': form, 'aux':AUX_CTX['changepass']})
+
 
 
 

@@ -2,11 +2,6 @@
 {% block content %}
 {% load crispy_forms_tags %}
 {{ form.media.css  }}
-{% if object == None %}
-    <h1>Crear Orden</h1>
-{% else %}
-    <h1>Editar Orden</h1>
-{% endif %}
 <form method="post">{% csrf_token %}
     {{ form|crispy  }}
     <div class="modal-footer">

@@ -9,9 +9,9 @@ from django.conf.urls import (
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
     path('resultados', ResultadoView.as_view(), name='resultado'),
-    path('resultados/<int:pk>/', UnidadUpdate.as_view(),name="resultado-ver" ),
+    path('resultados/<int:pk>/', ResultadoDetalleView.as_view(),name="resultado-ver" ),
     path('carga', CargaView.as_view(), name='carga'),
-    path('carga/<int:pk>/', UnidadUpdate.as_view(),name="carga-edit" ),
+    path('carga/<int:pk>/', CargaResultadoView.as_view(),name="carga-edit" ),
     path('unidades', UnidadListView.as_view(), name='unidad-list'),
     path('unidades/crear/', UnidadCreate.as_view(),name="unidad-create" ),
     path('unidades/<int:pk>/editar/', UnidadUpdate.as_view(),name="unidad-edit" ),
@@ -37,7 +37,6 @@ urlpatterns = [
 
     path('logout/', auth_views.LogoutView.as_view(),  name='logout'),
     path('changepass/', changepass,  name='changepass'),
-    # path('change-password/', auth_views.PasswordChangeView.as_view(), name='change-password'),
     # path('password_change/done/', auth_views.PasswordChangeView.as_view(), name='password_change_done'),
     # path("register/", register, name="register"),
 

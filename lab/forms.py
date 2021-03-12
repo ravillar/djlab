@@ -1,44 +1,22 @@
 from django import forms
-from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm,  UserCreationForm
+from django.contrib.auth.forms import AuthenticationForm,  UserCreationForm
 from django.contrib.auth.models import User
 
 from django_select2 import forms as s2forms
 from tempus_dominus.widgets import DateTimePicker,  DatePicker #, TimePicker,
 from lab.models import Orden, Paciente
-dtpIcons= {
-        'today': 'fas fa-calendar-check',
-        'clear': 'fas fa-trash',
-        'close': 'fas fa-times'
-        }
-dtpTooltips= {
-        'today': 'Hoy',
-        'clear': 'Limpiar selección',
-        'close': 'Cerrar',
-        'selectMonth': 'Seleccionar mes',
-        'prevMonth': 'Mes anterior',
-        'nextMonth': 'Mes siguiente',
-        'selectYear': 'Seleccionar año',
-        'prevYear': 'Año anterior',
-        'nextYear': 'Año siguiente',
-        'selectDecade': 'Seleccionar década',
-        'prevDecade': 'Década anterior',
-        'nextDecade': 'Década siguiente',
-        'prevCentury': 'Siglo anterior',
-        'nextCentury': 'Siglo siguiente',
-        'incrementHour': 'Incrementar hora',
-        'pickHour': 'Seleccionar hora',
-        'decrementHour':'Decrementar hora',
-        'incrementMinute': 'Incrementar minuto',
-        'pickMinute': 'Seleccionar ninuto',
-        'decrementMinute':'Decrementar minuto',
-        'incrementSecond': 'Incrementar segundo',
-        'pickSecond': 'Seleccionar segundo',
-        'decrementSecond':'Decrementar segundo'
+from lab.util import DTP_ICONS, DTP_TOOLTIPS
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Layout, Submit, Row, Column, Div, Button
+from django.urls import reverse
 
-        }
 class PruebasWidget(s2forms.Select2MultipleWidget):
     search_fields = [
         "nombre__icontains",
+    ]
+class PacienteWidget(s2forms.Select2Widget):
+    search_fields = [
+        "paciente__icontains",
     ]
 
 class OrdenForm(forms.ModelForm):
@@ -48,7 +26,8 @@ class OrdenForm(forms.ModelForm):
         # readonly_fields = ["fecha_alta"]
         widgets = {
                 "pruebas": PruebasWidget(),
-                "fecha_alta": DateTimePicker(options={'tooltips': dtpTooltips, 'icons':dtpIcons,'locale':'es','sideBySide':True,'format':'DD/MM/YYYY HH:mm', 'buttons':{'showToday': True,'showClose': True}})
+                "paciente": PacienteWidget(),
+                "fecha_alta": DateTimePicker(options={'tooltips': DTP_TOOLTIPS, 'icons':DTP_ICONS,'locale':'es','sideBySide':True,'format':'DD/MM/YYYY HH:mm', 'buttons':{'showToday': True,'showClose': True}})
         }
 
 class PacienteForm(forms.ModelForm):
@@ -56,8 +35,34 @@ class PacienteForm(forms.ModelForm):
         model = Paciente
         fields = "__all__"
         widgets = {
-                "fecha_nac": DatePicker(options={'tooltips': dtpTooltips, 'icons':dtpIcons, 'locale':'es','sideBySide':True,'format':'DD/MM/YYYY', 'buttons':{'showToday': True,'showClose': True}})#,'showClear': True
+                "fecha_nac": DatePicker(options={'tooltips': DTP_TOOLTIPS, 'icons':DTP_ICONS, 'locale':'es','sideBySide':True,'format':'DD/MM/YYYY', 'buttons':{'showToday': True,'showClose': True}})#,'showClear': True
+                , 'direccion':forms.Textarea(attrs={'rows': '3'})
         }
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.layout = Layout(
+            Row(
+                Column('dni', css_class='form-group col-md-4 mb-0'),
+                Column('apellido', css_class='form-group col-md-4 mb-0'),
+                Column('nombre', css_class='form-group col-md-4 mb-0'),
+                css_class='form-row'
+            ),
+            Row(
+                Column('fecha_nac', css_class='form-group col-md-4 mb-0'),
+                Column('email', css_class='form-group col-md-4 mb-0'),
+                Column('telefono', css_class='form-group col-md-4 mb-0'),
+                css_class='form-row'
+            ),
+            Row(
+                Column(
+                    'direccion', css_class='form-group mb-0'),
+                css_class='form-row'
+            ),
+            Div(
+                Button('button','Cancelar', css_class='btn btn-secondary',  onclick="location.href='"+reverse('paciente-list')+"'"),
+                Submit('submit', 'Guardar'), css_class='modal-footer')
+            )
 class RegisterForm(UserCreationForm):
     email = forms.EmailField()
     class Meta:
@@ -65,8 +70,3 @@ class RegisterForm(UserCreationForm):
         fields = ["username", "email", "password1", "password2"]
 
 
-class ChangepassForm(PasswordChangeForm):
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['aux'] ={'url':reverse_lazy('home'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'}
-        return context
