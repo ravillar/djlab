@@ -1,0 +1,981 @@
+valor,min_val,max_val,prueba,dni,apellido,nombre,email,telefono,direccion,unidad,unidad_desc,fecha_orden,fecha_nac
+6,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,11/12/2019 09:32,01/08/1945
+408,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,11/12/2019 09:32,01/08/1945
+84,80,120,Glucosa,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,mg/dl,...,11/12/2019 09:32,01/08/1945
+272,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,11/12/2019 09:32,01/08/1945
+4,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,11/12/2019 09:32,01/08/1945
+10,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,11/12/2019 09:32,01/08/1945
+80,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,11/12/2019 09:32,01/08/1945
+5440,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,11/12/2019 09:32,01/08/1945
+8.3,5.7,7.5,Proteinas totales,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,g/dl,...,11/12/2019 09:32,01/08/1945
+8500000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,11/12/2019 09:32,01/08/1945
+6800,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,11/12/2019 09:32,01/08/1945
+227000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,11/12/2019 09:32,01/08/1945
+21,15,50,Urea ,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,mg/dl,...,11/12/2019 09:32,01/08/1945
+792,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,28/12/2019 10:50,01/08/1945
+6,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,28/12/2019 10:50,01/08/1945
+132,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,28/12/2019 10:50,01/08/1945
+1,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,28/12/2019 10:50,01/08/1945
+8,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,28/12/2019 10:50,01/08/1945
+11220,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,28/12/2019 10:50,01/08/1945
+85,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,28/12/2019 10:50,01/08/1945
+7070000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,28/12/2019 10:50,01/08/1945
+13200,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,28/12/2019 10:50,01/08/1945
+120000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,28/12/2019 10:50,01/08/1945
+6,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/01/2020 09:31,01/08/1945
+936,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/01/2020 09:31,01/08/1945
+1092,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/01/2020 09:31,01/08/1945
+7,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/01/2020 09:31,01/08/1945
+7,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/01/2020 09:31,01/08/1945
+12480,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/01/2020 09:31,01/08/1945
+80,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/01/2020 09:31,01/08/1945
+6300000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/01/2020 09:31,01/08/1945
+15600,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/01/2020 09:31,01/08/1945
+260000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/01/2020 09:31,01/08/1945
+76,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,10/02/2020 20:58,01/08/1945
+1,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,10/02/2020 20:58,01/08/1945
+532,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,10/02/2020 20:58,01/08/1945
+7,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,10/02/2020 20:58,01/08/1945
+12,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,10/02/2020 20:58,01/08/1945
+6080,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,10/02/2020 20:58,01/08/1945
+80,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,10/02/2020 20:58,01/08/1945
+6800000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,10/02/2020 20:58,01/08/1945
+7600,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,10/02/2020 20:58,01/08/1945
+200000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,10/02/2020 20:58,01/08/1945
+0,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,27/02/2020 09:27,01/08/1945
+0,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,27/02/2020 09:27,01/08/1945
+4,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,27/02/2020 09:27,01/08/1945
+908,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,27/02/2020 09:27,01/08/1945
+8,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,27/02/2020 09:27,01/08/1945
+88,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,27/02/2020 09:27,01/08/1945
+19976,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,27/02/2020 09:27,01/08/1945
+7600000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,27/02/2020 09:27,01/08/1945
+22700,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,27/02/2020 09:27,01/08/1945
+200000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,27/02/2020 09:27,01/08/1945
+9,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,12/03/2020 09:36,01/08/1945
+711,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,12/03/2020 09:36,01/08/1945
+1,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,12/03/2020 09:36,01/08/1945
+79,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,12/03/2020 09:36,01/08/1945
+4,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,12/03/2020 09:36,01/08/1945
+86,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,12/03/2020 09:36,01/08/1945
+6794,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,12/03/2020 09:36,01/08/1945
+6300000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,12/03/2020 09:36,01/08/1945
+7900,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,12/03/2020 09:36,01/08/1945
+160000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,12/03/2020 09:36,01/08/1945
+10,2,10,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/07/2020 15:14,01/08/1945
+650,100,1250,Eosinófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/07/2020 15:14,01/08/1945
+73,80,120,Glucosa,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,mg/dl,...,18/07/2020 15:14,01/08/1945
+5,12,30,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/07/2020 15:14,01/08/1945
+325,1000,4800,Linfocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/07/2020 15:14,01/08/1945
+17,3,10,Monocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/07/2020 15:14,01/08/1945
+68,60,77,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,%,...,18/07/2020 15:14,01/08/1945
+4420,3000,11500,Neutrófilos Segmentados,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/07/2020 15:14,01/08/1945
+8,5.7,7.5,Proteinas totales,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,g/dl,...,18/07/2020 15:14,01/08/1945
+6300000,5500000,8500000,Recuento de eritrocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/07/2020 15:14,01/08/1945
+6500,6000,17500,Recuento de leucocitos,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/07/2020 15:14,01/08/1945
+211000,200000,500000,Recuento Plaquetario,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,Cél/ul,...,18/07/2020 15:14,01/08/1945
+20,15,50,Urea ,4428971,Mathews,Stewart,euismod.est@ipsumPhasellus.ca,(119) 723-5233,1261 Ipsum Avenue,mg/dl,...,18/07/2020 15:14,01/08/1945
+1211,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,23/12/2019 13:34,18/04/1992
+7,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,23/12/2019 13:34,18/04/1992
+95,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,23/12/2019 13:34,18/04/1992
+1211,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,23/12/2019 13:34,18/04/1992
+7,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,23/12/2019 13:34,18/04/1992
+16,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,23/12/2019 13:34,18/04/1992
+70,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,23/12/2019 13:34,18/04/1992
+12110,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,23/12/2019 13:34,18/04/1992
+4.9,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,23/12/2019 13:34,18/04/1992
+6800000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,23/12/2019 13:34,18/04/1992
+17300,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,23/12/2019 13:34,18/04/1992
+30000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,23/12/2019 13:34,18/04/1992
+44,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,23/12/2019 13:34,18/04/1992
+2,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,04/01/2020 14:27,18/04/1992
+120,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,04/01/2020 14:27,18/04/1992
+112,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,04/01/2020 14:27,18/04/1992
+360,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,04/01/2020 14:27,18/04/1992
+6,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,04/01/2020 14:27,18/04/1992
+6,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,04/01/2020 14:27,18/04/1992
+86,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,04/01/2020 14:27,18/04/1992
+5160,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,04/01/2020 14:27,18/04/1992
+6.7,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,04/01/2020 14:27,18/04/1992
+6700000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,04/01/2020 14:27,18/04/1992
+6000,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,04/01/2020 14:27,18/04/1992
+240000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,04/01/2020 14:27,18/04/1992
+36,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,04/01/2020 14:27,18/04/1992
+0,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,30/01/2020 14:00,18/04/1992
+0,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,30/01/2020 14:00,18/04/1992
+108,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,30/01/2020 14:00,18/04/1992
+1620,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,30/01/2020 14:00,18/04/1992
+9,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,30/01/2020 14:00,18/04/1992
+5,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,30/01/2020 14:00,18/04/1992
+85,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,30/01/2020 14:00,18/04/1992
+15300,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,30/01/2020 14:00,18/04/1992
+7.3,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,30/01/2020 14:00,18/04/1992
+6500000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,30/01/2020 14:00,18/04/1992
+18000,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,30/01/2020 14:00,18/04/1992
+136000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,30/01/2020 14:00,18/04/1992
+54,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,30/01/2020 14:00,18/04/1992
+0,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 13:43,18/04/1992
+0,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 13:43,18/04/1992
+74,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,13/02/2020 13:43,18/04/1992
+8,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 13:43,18/04/1992
+496,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 13:43,18/04/1992
+6,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 13:43,18/04/1992
+86,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 13:43,18/04/1992
+5332,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 13:43,18/04/1992
+8.3,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,13/02/2020 13:43,18/04/1992
+7000000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 13:43,18/04/1992
+6200,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 13:43,18/04/1992
+420000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 13:43,18/04/1992
+40,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,13/02/2020 13:43,18/04/1992
+33,30,36,Concentración hemoglobinica corpuscular media,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 15:41,18/04/1992
+1,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 15:41,18/04/1992
+178,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 15:41,18/04/1992
+117,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,13/02/2020 15:41,18/04/1992
+1958,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 15:41,18/04/1992
+11,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 15:41,18/04/1992
+0,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 15:41,18/04/1992
+15664,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 15:41,18/04/1992
+88,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,13/02/2020 15:41,18/04/1992
+7.6,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,13/02/2020 15:41,18/04/1992
+3500000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 15:41,18/04/1992
+17800,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 15:41,18/04/1992
+32000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,13/02/2020 15:41,18/04/1992
+74,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,13/02/2020 15:41,18/04/1992
+60,60,77,Volumen corpuscular medio,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,fl,...,13/02/2020 15:41,18/04/1992
+33,30,36,Concentración hemoglobinica corpuscular media,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+0,0.9,2.4,Eosinofilos en banda,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+320,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,18/02/2020 16:32,18/04/1992
+2,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+3.36,1.3,4.9,Índice de maduración eritroide,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+17.07,2.6,26.7,Indice de maduración mieloide,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,---,...,18/02/2020 16:32,18/04/1992
+20,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+3200,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,18/02/2020 16:32,18/04/1992
+0,0.4,3.7,Metamielocitos eosinofilos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+0,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+6.9,6.8,62.9,Neutrofilos en banda,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+12480,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,18/02/2020 16:32,18/04/1992
+78,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+5.9,0.4,11.6,Normoblastos basofilos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+9.9,3.5,27,Normoblastos policromatófilos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,18/02/2020 16:32,18/04/1992
+3300000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,18/02/2020 16:32,18/04/1992
+16000,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,18/02/2020 16:32,18/04/1992
+100000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,18/02/2020 16:32,18/04/1992
+66,60,77,Volumen corpuscular medio,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,fl,...,18/02/2020 16:32,18/04/1992
+33,30,36,Concentración hemoglobinica corpuscular media,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,28/02/2020 14:10,18/04/1992
+424,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,28/02/2020 14:10,18/04/1992
+2,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,28/02/2020 14:10,18/04/1992
+103,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,28/02/2020 14:10,18/04/1992
+7,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,28/02/2020 14:10,18/04/1992
+1484,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,28/02/2020 14:10,18/04/1992
+7,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,28/02/2020 14:10,18/04/1992
+17808,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,28/02/2020 14:10,18/04/1992
+84,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,28/02/2020 14:10,18/04/1992
+7.7,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,28/02/2020 14:10,18/04/1992
+3800000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,28/02/2020 14:10,18/04/1992
+21200,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,28/02/2020 14:10,18/04/1992
+60000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,28/02/2020 14:10,18/04/1992
+52,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,28/02/2020 14:10,18/04/1992
+60,60,77,Volumen corpuscular medio,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,fl,...,28/02/2020 14:10,18/04/1992
+33,30,36,Concentración hemoglobinica corpuscular media,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,14/03/2020 19:49,18/04/1992
+390,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,14/03/2020 19:49,18/04/1992
+5,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,14/03/2020 19:49,18/04/1992
+88,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,14/03/2020 19:49,18/04/1992
+1014,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,14/03/2020 19:49,18/04/1992
+13,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,14/03/2020 19:49,18/04/1992
+6,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,14/03/2020 19:49,18/04/1992
+76,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,14/03/2020 19:49,18/04/1992
+5928,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,14/03/2020 19:49,18/04/1992
+6.9,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,14/03/2020 19:49,18/04/1992
+3500000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,14/03/2020 19:49,18/04/1992
+7800,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,14/03/2020 19:49,18/04/1992
+350000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,14/03/2020 19:49,18/04/1992
+39,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,14/03/2020 19:49,18/04/1992
+60,60,77,Volumen corpuscular medio,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,fl,...,14/03/2020 19:49,18/04/1992
+488,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,10/04/2020 14:37,18/04/1992
+4,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,10/04/2020 14:37,18/04/1992
+92,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,10/04/2020 14:37,18/04/1992
+8,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,10/04/2020 14:37,18/04/1992
+976,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,10/04/2020 14:37,18/04/1992
+6,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,10/04/2020 14:37,18/04/1992
+80,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,10/04/2020 14:37,18/04/1992
+9760,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,10/04/2020 14:37,18/04/1992
+7.1,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,10/04/2020 14:37,18/04/1992
+5900000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,10/04/2020 14:37,18/04/1992
+12200,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,10/04/2020 14:37,18/04/1992
+140000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,10/04/2020 14:37,18/04/1992
+47,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,10/04/2020 14:37,18/04/1992
+720,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,11/05/2020 19:52,18/04/1992
+8,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,11/05/2020 19:52,18/04/1992
+73,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,11/05/2020 19:52,18/04/1992
+5,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,11/05/2020 19:52,18/04/1992
+450,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,11/05/2020 19:52,18/04/1992
+5,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,11/05/2020 19:52,18/04/1992
+7380,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,11/05/2020 19:52,18/04/1992
+82,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,11/05/2020 19:52,18/04/1992
+7,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,11/05/2020 19:52,18/04/1992
+7100000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,11/05/2020 19:52,18/04/1992
+9000,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,11/05/2020 19:52,18/04/1992
+100000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,11/05/2020 19:52,18/04/1992
+37,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,11/05/2020 19:52,18/04/1992
+6.8,8,12,Calcio ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,20/06/2020 15:29,18/04/1992
+637,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,20/06/2020 15:29,18/04/1992
+7,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,20/06/2020 15:29,18/04/1992
+99,80,120,Glucosa,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,20/06/2020 15:29,18/04/1992
+19,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,20/06/2020 15:29,18/04/1992
+1729,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,20/06/2020 15:29,18/04/1992
+4,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,20/06/2020 15:29,18/04/1992
+6370,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,20/06/2020 15:29,18/04/1992
+70,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,20/06/2020 15:29,18/04/1992
+7.1,5.7,7.5,Proteinas totales,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,g/dl,...,20/06/2020 15:29,18/04/1992
+8800000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,20/06/2020 15:29,18/04/1992
+9100,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,20/06/2020 15:29,18/04/1992
+399000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,20/06/2020 15:29,18/04/1992
+42,15,50,Urea ,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,20/06/2020 15:29,18/04/1992
+33,30,36,Concentración hemoglobinica corpuscular media,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+0,0.9,2.4,Eosinofilos en banda,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+0,2,10,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+0,100,1250,Eosinófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,31/07/2020 18:02,18/04/1992
+320,200,380,Fibrinógeno,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,mg/dl,...,31/07/2020 18:02,18/04/1992
+8.5,1.3,4.9,Índice de maduración eritroide,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+12.3,2.6,26.7,Indice de maduración mieloide,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,---,...,31/07/2020 18:02,18/04/1992
+207,1000,4800,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,31/07/2020 18:02,18/04/1992
+1,12,30,Linfocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+0,0.4,3.7,Metamielocitos eosinofilos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+5,3,10,Monocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+0,6.8,62.9,Neutrofilos en banda,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+91,60,77,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+18837,3000,11500,Neutrófilos Segmentados,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,31/07/2020 18:02,18/04/1992
+1.4,0.4,11.6,Normoblastos basofilos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+1.4,3.5,27,Normoblastos policromatófilos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,%,...,31/07/2020 18:02,18/04/1992
+3100000,5500000,8500000,Recuento de eritrocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,31/07/2020 18:02,18/04/1992
+22100,6000,17500,Recuento de leucocitos,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,31/07/2020 18:02,18/04/1992
+140000,200000,500000,Recuento Plaquetario,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Cél/ul,...,31/07/2020 18:02,18/04/1992
+7,5,7,Tiempo de Protrombina,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Segundos,...,31/07/2020 18:02,18/04/1992
+16,15,17,Tiempo de Trombina,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Segundos,...,31/07/2020 18:02,18/04/1992
+15,15,17,Tiempo de Tromboplastina Parcial Activado con Kaolín,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,Segundos,...,31/07/2020 18:02,18/04/1992
+61,60,77,Volumen corpuscular medio,4497884,Kirby,Fulton,rhoncus@purusgravida.edu,(935) 572-2637,Ap #121-3950 Nec St.,fl,...,31/07/2020 18:02,18/04/1992
+918,100,1250,Eosinófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,10/09/2019 18:02,13/02/1975
+18,2,10,Eosinófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,10/09/2019 18:02,13/02/1975
+13,12,30,Linfocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,10/09/2019 18:02,13/02/1975
+663,1000,4800,Linfocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,10/09/2019 18:02,13/02/1975
+21,3,10,Monocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,10/09/2019 18:02,13/02/1975
+48,60,77,Neutrófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,10/09/2019 18:02,13/02/1975
+2448,3000,11500,Neutrófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,10/09/2019 18:02,13/02/1975
+7000000,5500000,8500000,Recuento de eritrocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,10/09/2019 18:02,13/02/1975
+5100,6000,17500,Recuento de leucocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,10/09/2019 18:02,13/02/1975
+340000,200000,500000,Recuento Plaquetario,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,10/09/2019 18:02,13/02/1975
+14,2,10,Eosinófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,26/10/2019 12:18,13/02/1975
+1162,100,1250,Eosinófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,26/10/2019 12:18,13/02/1975
+14,12,30,Linfocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,26/10/2019 12:18,13/02/1975
+1162,1000,4800,Linfocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,26/10/2019 12:18,13/02/1975
+2,3,10,Monocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,26/10/2019 12:18,13/02/1975
+70,60,77,Neutrófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,26/10/2019 12:18,13/02/1975
+5810,3000,11500,Neutrófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,26/10/2019 12:18,13/02/1975
+7500000,5500000,8500000,Recuento de eritrocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,26/10/2019 12:18,13/02/1975
+8300,6000,17500,Recuento de leucocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,26/10/2019 12:18,13/02/1975
+600000,200000,500000,Recuento Plaquetario,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,26/10/2019 12:18,13/02/1975
+35,2,10,Eosinófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,18/03/2020 08:38,13/02/1975
+1505,100,1250,Eosinófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,18/03/2020 08:38,13/02/1975
+344,1000,4800,Linfocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,18/03/2020 08:38,13/02/1975
+8,12,30,Linfocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,18/03/2020 08:38,13/02/1975
+13,3,10,Monocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,18/03/2020 08:38,13/02/1975
+44,60,77,Neutrófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,%,...,18/03/2020 08:38,13/02/1975
+1892,3000,11500,Neutrófilos Segmentados,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,18/03/2020 08:38,13/02/1975
+6100000,5500000,8500000,Recuento de eritrocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,18/03/2020 08:38,13/02/1975
+4300,6000,17500,Recuento de leucocitos,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,18/03/2020 08:38,13/02/1975
+370000,200000,500000,Recuento Plaquetario,4601528,Russell,Ciaran,parturient@luctus.org,(443) 674-5830,Ap #150-4293 Integer Street,Cél/ul,...,18/03/2020 08:38,13/02/1975
+0.7,0.67,2.45,Celulas plasmaticas,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+33,31,35,Concentración hemoglobinica corpuscular media,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+0,0.08,0.89,Eosinofilos en banda,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+1.4,0.4,0.8,Eosinofilos segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+16,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+800,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,23/11/2019 14:40,03/09/1965
+21,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+7,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,23/11/2019 14:40,03/09/1965
+33,1.3,4.9,Índice de maduración eritroide,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+16.57,2.6,26.7,Indice de maduración mieloide,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",---,...,23/11/2019 14:40,03/09/1965
+36.1,3.76,11.04,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+14,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+700,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,23/11/2019 14:40,03/09/1965
+0,0.15,0.93,Metamielocitos eosinofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+3.4,7.16,13.56,Metamielocitos neutrofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+0,0.18,1.01,Mielocitos eosinofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+0.7,1.82,6.8,Mielocitos neutrofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+0,0.26,1.28,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+2,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+1.4,13.1,15.7,Neutrofilos en banda,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+18.4,4.14,14.04,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+3300,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,23/11/2019 14:40,03/09/1965
+66,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+0.7,2.46,5.58,Normoblastos basofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+19,2.39,8.69,Normoblastos ortocromaticos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+4.1,13.09,22.05,Normoblastos policromatófilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+0.7,0.7,2.78,Promielocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,23/11/2019 14:40,03/09/1965
+3500000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,23/11/2019 14:40,03/09/1965
+5000,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,23/11/2019 14:40,03/09/1965
+380000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,23/11/2019 14:40,03/09/1965
+66,39,55,Volumen corpuscular medio,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",fl,...,23/11/2019 14:40,03/09/1965
+3.1,2.1,3.6,Albuminas,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,03/01/2020 15:15,03/09/1965
+4,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,03/01/2020 15:15,03/09/1965
+448,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,03/01/2020 15:15,03/09/1965
+6,2.6,6,Fósforo inorgánico,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,03/01/2020 15:15,03/09/1965
+30,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,03/01/2020 15:15,03/09/1965
+10,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,03/01/2020 15:15,03/09/1965
+672,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,03/01/2020 15:15,03/09/1965
+6,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,03/01/2020 15:15,03/09/1965
+0,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,03/01/2020 15:15,03/09/1965
+10080,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,03/01/2020 15:15,03/09/1965
+90,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,03/01/2020 15:15,03/09/1965
+7.3,5.6,7.8,Proteinas totales,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,03/01/2020 15:15,03/09/1965
+5000000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,03/01/2020 15:15,03/09/1965
+11200,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,03/01/2020 15:15,03/09/1965
+190000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,03/01/2020 15:15,03/09/1965
+41,30,60,Urea ,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,03/01/2020 15:15,03/09/1965
+0.4,2.1,3.6,Albuminas,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,11/03/2020 20:27,03/09/1965
+33,31,35,Concentración hemoglobinica corpuscular media,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,11/03/2020 20:27,03/09/1965
+8,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,11/03/2020 20:27,03/09/1965
+40,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,11/03/2020 20:27,03/09/1965
+8.2,2.6,6,Fósforo inorgánico,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,11/03/2020 20:27,03/09/1965
+93,60,140,Glucosa,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,11/03/2020 20:27,03/09/1965
+21,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,11/03/2020 20:27,03/09/1965
+7,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,11/03/2020 20:27,03/09/1965
+22,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,11/03/2020 20:27,03/09/1965
+110,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,11/03/2020 20:27,03/09/1965
+4,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,11/03/2020 20:27,03/09/1965
+330,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,11/03/2020 20:27,03/09/1965
+66,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,11/03/2020 20:27,03/09/1965
+7.2,5.6,7.8,Proteinas totales,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,11/03/2020 20:27,03/09/1965
+3500000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,11/03/2020 20:27,03/09/1965
+500,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,11/03/2020 20:27,03/09/1965
+50000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,11/03/2020 20:27,03/09/1965
+44,30,60,Urea ,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,11/03/2020 20:27,03/09/1965
+60,39,55,Volumen corpuscular medio,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",fl,...,11/03/2020 20:27,03/09/1965
+0,0.67,2.45,Celulas plasmaticas,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+33,31,35,Concentración hemoglobinica corpuscular media,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,0.08,0.89,Eosinofilos en banda,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,0.4,0.8,Eosinofilos segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,21/03/2020 15:50,03/09/1965
+132,60,140,Glucosa,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,21/03/2020 15:50,03/09/1965
+23,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+7.6,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,21/03/2020 15:50,03/09/1965
+8.36,1.3,4.9,Índice de maduración eritroide,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+18.41,2.6,26.7,Indice de maduración mieloide,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",---,...,21/03/2020 15:50,03/09/1965
+10,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+660,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,21/03/2020 15:50,03/09/1965
+4.2,3.76,11.04,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,0.15,0.93,Metamielocitos eosinofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+3.4,7.16,13.56,Metamielocitos neutrofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,0.18,1.01,Mielocitos eosinofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+1.7,1.82,6.8,Mielocitos neutrofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,0.26,1.28,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+2.5,13.1,15.7,Neutrofilos en banda,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+90,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+25.4,4.14,14.04,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+5940,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,21/03/2020 15:50,03/09/1965
+5.9,2.46,5.58,Normoblastos basofilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+40.7,2.39,8.69,Normoblastos ortocromaticos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+15.3,13.09,22.05,Normoblastos policromatófilos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+0,0.7,2.78,Promielocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,21/03/2020 15:50,03/09/1965
+5.6,5.6,7.8,Proteinas totales,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,21/03/2020 15:50,03/09/1965
+3800000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,21/03/2020 15:50,03/09/1965
+6600,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,21/03/2020 15:50,03/09/1965
+360000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,21/03/2020 15:50,03/09/1965
+27,30,60,Urea ,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,21/03/2020 15:50,03/09/1965
+66,39,55,Volumen corpuscular medio,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",fl,...,21/03/2020 15:50,03/09/1965
+72,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,02/04/2020 21:02,03/09/1965
+6,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,02/04/2020 21:02,03/09/1965
+33,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,02/04/2020 21:02,03/09/1965
+11.3,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,02/04/2020 21:02,03/09/1965
+32,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,02/04/2020 21:02,03/09/1965
+384,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,02/04/2020 21:02,03/09/1965
+12,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,02/04/2020 21:02,03/09/1965
+600,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,02/04/2020 21:02,03/09/1965
+50,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,02/04/2020 21:02,03/09/1965
+6.7,5.6,7.8,Proteinas totales,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,02/04/2020 21:02,03/09/1965
+5600000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,02/04/2020 21:02,03/09/1965
+1200,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,02/04/2020 21:02,03/09/1965
+460000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,02/04/2020 21:02,03/09/1965
+34,30,60,Urea ,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,02/04/2020 21:02,03/09/1965
+3.1,2.1,3.6,Albuminas,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,20/05/2020 15:16,03/09/1965
+4,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,20/05/2020 15:16,03/09/1965
+84,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,20/05/2020 15:16,03/09/1965
+5.7,2.6,6,Fósforo inorgánico,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,20/05/2020 15:16,03/09/1965
+89,60,140,Glucosa,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,20/05/2020 15:16,03/09/1965
+38,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,20/05/2020 15:16,03/09/1965
+12.6,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,20/05/2020 15:16,03/09/1965
+462,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,20/05/2020 15:16,03/09/1965
+22,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,20/05/2020 15:16,03/09/1965
+14,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,20/05/2020 15:16,03/09/1965
+1260,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,20/05/2020 15:16,03/09/1965
+60,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,20/05/2020 15:16,03/09/1965
+7.3,5.6,7.8,Proteinas totales,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,20/05/2020 15:16,03/09/1965
+6300000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,20/05/2020 15:16,03/09/1965
+2100,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,20/05/2020 15:16,03/09/1965
+540000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,20/05/2020 15:16,03/09/1965
+47,30,60,Urea ,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,20/05/2020 15:16,03/09/1965
+0,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,01/06/2020 15:34,03/09/1965
+0,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,01/06/2020 15:34,03/09/1965
+45,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,01/06/2020 15:34,03/09/1965
+15.1,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,01/06/2020 15:34,03/09/1965
+1032,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,01/06/2020 15:34,03/09/1965
+8,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,01/06/2020 15:34,03/09/1965
+4,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,01/06/2020 15:34,03/09/1965
+11352,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,01/06/2020 15:34,03/09/1965
+88,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,01/06/2020 15:34,03/09/1965
+7500000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,01/06/2020 15:34,03/09/1965
+12900,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,01/06/2020 15:34,03/09/1965
+440000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,01/06/2020 15:34,03/09/1965
+74,300,800,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,22/06/2020 15:56,03/09/1965
+2,2,12,Eosinófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,22/06/2020 15:56,03/09/1965
+72,60,140,Glucosa,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,22/06/2020 15:56,03/09/1965
+35,30,44,Hematocrito,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,22/06/2020 15:56,03/09/1965
+11.6,8,15,Hemoglobina,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,22/06/2020 15:56,03/09/1965
+2368,1500,7000,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,22/06/2020 15:56,03/09/1965
+64,22,55,Linfocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,22/06/2020 15:56,03/09/1965
+0,1,4,Monocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,22/06/2020 15:56,03/09/1965
+32,37,75,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",%,...,22/06/2020 15:56,03/09/1965
+1184,2500,12500,Neutrófilos Segmentados,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,22/06/2020 15:56,03/09/1965
+7.1,5.6,7.8,Proteinas totales,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",g/dl,...,22/06/2020 15:56,03/09/1965
+5800000,5000000,10000000,Recuento de eritrocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,22/06/2020 15:56,03/09/1965
+3700,5500,19500,Recuento de leucocitos,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,22/06/2020 15:56,03/09/1965
+400000,300000,800000,Recuento Plaquetario,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",Cél/ul,...,22/06/2020 15:56,03/09/1965
+40,30,60,Urea ,4864965,Paul,Bell,lobortis.tellus.justo@erat.org,(238) 991-3420,"7137 Nec, St.",mg/dl,...,22/06/2020 15:56,03/09/1965
+33,30,36,Concentración hemoglobinica corpuscular media,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,02/05/2020 15:48,22/09/1981
+0,100,1250,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,02/05/2020 15:48,22/09/1981
+0,2,10,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,02/05/2020 15:48,22/09/1981
+945,1000,4800,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,02/05/2020 15:48,22/09/1981
+21,12,30,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,02/05/2020 15:48,22/09/1981
+5,3,10,Monocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,02/05/2020 15:48,22/09/1981
+74,60,77,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,02/05/2020 15:48,22/09/1981
+3330,3000,11500,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,02/05/2020 15:48,22/09/1981
+10.5,5.7,7.5,Proteinas totales,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,g/dl,...,02/05/2020 15:48,22/09/1981
+5100000,5500000,8500000,Recuento de eritrocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,02/05/2020 15:48,22/09/1981
+4500,6000,17500,Recuento de leucocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,02/05/2020 15:48,22/09/1981
+160000,200000,500000,Recuento Plaquetario,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,02/05/2020 15:48,22/09/1981
+106,15,50,Urea ,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,mg/dl,...,02/05/2020 15:48,22/09/1981
+60,60,77,Volumen corpuscular medio,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,fl,...,02/05/2020 15:48,22/09/1981
+0.5,0.9,2.4,Eosinofilos en banda,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+27,100,1250,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/05/2020 15:17,22/09/1981
+1,2,10,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+5.04,1.3,4.9,Índice de maduración eritroide,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+1.83,2.6,26.7,Indice de maduración mieloide,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,---,...,18/05/2020 15:17,22/09/1981
+945,1000,4800,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/05/2020 15:17,22/09/1981
+35,12,30,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+0.5,0.4,3.7,Metamielocitos eosinofilos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+6,3,10,Monocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+2.3,6.8,62.9,Neutrofilos en banda,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+1566,3000,11500,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/05/2020 15:17,22/09/1981
+58,60,77,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+5.4,0.4,11.6,Normoblastos basofilos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+5.9,3.5,27,Normoblastos policromatófilos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/05/2020 15:17,22/09/1981
+7800000,5500000,8500000,Recuento de eritrocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/05/2020 15:17,22/09/1981
+2700,6000,17500,Recuento de leucocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/05/2020 15:17,22/09/1981
+280000,200000,500000,Recuento Plaquetario,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/05/2020 15:17,22/09/1981
+31,30,36,Concentración hemoglobinica corpuscular media,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/06/2020 15:31,22/09/1981
+122,100,1250,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/06/2020 15:31,22/09/1981
+2,2,10,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/06/2020 15:31,22/09/1981
+28,12,30,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/06/2020 15:31,22/09/1981
+1708,1000,4800,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/06/2020 15:31,22/09/1981
+12,3,10,Monocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/06/2020 15:31,22/09/1981
+3538,3000,11500,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/06/2020 15:31,22/09/1981
+58,60,77,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,18/06/2020 15:31,22/09/1981
+7.6,5.7,7.5,Proteinas totales,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,g/dl,...,18/06/2020 15:31,22/09/1981
+5900000,5500000,8500000,Recuento de eritrocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/06/2020 15:31,22/09/1981
+6100,6000,17500,Recuento de leucocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/06/2020 15:31,22/09/1981
+270000,200000,500000,Recuento Plaquetario,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,18/06/2020 15:31,22/09/1981
+60,15,50,Urea ,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,mg/dl,...,18/06/2020 15:31,22/09/1981
+65,60,77,Volumen corpuscular medio,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,fl,...,18/06/2020 15:31,22/09/1981
+212,100,1250,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,04/07/2020 14:10,22/09/1981
+4,2,10,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,04/07/2020 14:10,22/09/1981
+75,80,120,Glucosa,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,mg/dl,...,04/07/2020 14:10,22/09/1981
+1431,1000,4800,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,04/07/2020 14:10,22/09/1981
+27,12,30,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,04/07/2020 14:10,22/09/1981
+11,3,10,Monocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,04/07/2020 14:10,22/09/1981
+58,60,77,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,04/07/2020 14:10,22/09/1981
+3074,3000,11500,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,04/07/2020 14:10,22/09/1981
+7.6,5.7,7.5,Proteinas totales,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,g/dl,...,04/07/2020 14:10,22/09/1981
+6100000,5500000,8500000,Recuento de eritrocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,04/07/2020 14:10,22/09/1981
+5300,6000,17500,Recuento de leucocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,04/07/2020 14:10,22/09/1981
+287000,200000,500000,Recuento Plaquetario,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,04/07/2020 14:10,22/09/1981
+40,15,50,Urea ,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,mg/dl,...,04/07/2020 14:10,22/09/1981
+0,0.9,2.4,Eosinofilos en banda,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+312,100,1250,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,31/08/2020 15:48,22/09/1981
+6,2,10,Eosinófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+3.21,1.3,4.9,Índice de maduración eritroide,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+6.67,2.6,26.7,Indice de maduración mieloide,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,---,...,31/08/2020 15:48,22/09/1981
+1560,1000,4800,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,31/08/2020 15:48,22/09/1981
+30,12,30,Linfocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+0,0.4,3.7,Metamielocitos eosinofilos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+0,3,10,Monocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+5.5,6.8,62.9,Neutrofilos en banda,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+64,60,77,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+3328,3000,11500,Neutrófilos Segmentados,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,31/08/2020 15:48,22/09/1981
+9.2,0.4,11.6,Normoblastos basofilos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+12.3,3.5,27,Normoblastos policromatófilos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,%,...,31/08/2020 15:48,22/09/1981
+7000000,5500000,8500000,Recuento de eritrocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,31/08/2020 15:48,22/09/1981
+5200,6000,17500,Recuento de leucocitos,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,31/08/2020 15:48,22/09/1981
+310000,200000,500000,Recuento Plaquetario,4752597,Turner,Mohammad,interdum@faucibus.com,(837) 677-0938,482-6076 Aliquam Avenue,Cél/ul,...,31/08/2020 15:48,22/09/1981
+2.2,0.67,2.45,Celulas plasmaticas,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,0.08,0.89,Eosinofilos en banda,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,0.4,0.8,Eosinofilos segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,2,12,Eosinófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,300,800,Eosinófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,05/06/2020 16:11,04/07/2019
+30,30,44,Hematocrito,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+10,8,15,Hemoglobina,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",g/dl,...,05/06/2020 16:11,04/07/2019
+4.99,1.3,4.9,Índice de maduración eritroide,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0.4,2.6,26.7,Indice de maduración mieloide,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",---,...,05/06/2020 16:11,04/07/2019
+23.7,3.76,11.04,Linfocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+644,1500,7000,Linfocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,05/06/2020 16:11,04/07/2019
+46,22,55,Linfocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,0.15,0.93,Metamielocitos eosinofilos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+1.1,7.16,13.56,Metamielocitos neutrofilos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,0.18,1.01,Mielocitos eosinofilos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+8.6,1.82,6.8,Mielocitos neutrofilos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,0.26,1.28,Monocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+6,1,4,Monocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+0,13.1,15.7,Neutrofilos en banda,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+3.2,4.14,14.04,Neutrófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+28,37,75,Neutrófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+392,2500,12500,Neutrófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,05/06/2020 16:11,04/07/2019
+6.5,2.46,5.58,Normoblastos basofilos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+35.5,2.39,8.69,Normoblastos ortocromaticos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+12.9,13.09,22.05,Normoblastos policromatófilos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+1.1,0.7,2.78,Promielocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,05/06/2020 16:11,04/07/2019
+5000000,5000000,10000000,Recuento de eritrocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,05/06/2020 16:11,04/07/2019
+1500,5500,19500,Recuento de leucocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,05/06/2020 16:11,04/07/2019
+320000,300000,800000,Recuento Plaquetario,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,05/06/2020 16:11,04/07/2019
+37,31,35,Concentración hemoglobinica corpuscular media,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,19/06/2020 15:15,04/07/2019
+2,2,12,Eosinófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,19/06/2020 15:15,04/07/2019
+74,300,800,Eosinófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,19/06/2020 15:15,04/07/2019
+24,30,44,Hematocrito,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,19/06/2020 15:15,04/07/2019
+9,8,15,Hemoglobina,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",g/dl,...,19/06/2020 15:15,04/07/2019
+851,1500,7000,Linfocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,19/06/2020 15:15,04/07/2019
+23,22,55,Linfocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,19/06/2020 15:15,04/07/2019
+3,1,4,Monocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,19/06/2020 15:15,04/07/2019
+2627,2500,12500,Neutrófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,19/06/2020 15:15,04/07/2019
+71,37,75,Neutrófilos Segmentados,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",%,...,19/06/2020 15:15,04/07/2019
+4600000,5000000,10000000,Recuento de eritrocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,19/06/2020 15:15,04/07/2019
+3700,5500,19500,Recuento de leucocitos,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,19/06/2020 15:15,04/07/2019
+350000,300000,800000,Recuento Plaquetario,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",Cél/ul,...,19/06/2020 15:15,04/07/2019
+52,39,55,Volumen corpuscular medio,4632611,Schmidt,Skyler,Donec.est@consectetueradipiscing.ca,(811) 989-7251,"126-4752 At, St.",fl,...,19/06/2020 15:15,04/07/2019
+369,100,1250,Eosinófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,13/06/2020 19:26,18/01/1972
+3,2,10,Eosinófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,13/06/2020 19:26,18/01/1972
+73,80,120,Glucosa,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",mg/dl,...,13/06/2020 19:26,18/01/1972
+79,12,30,Linfocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,13/06/2020 19:26,18/01/1972
+9717,1000,4800,Linfocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,13/06/2020 19:26,18/01/1972
+0,3,10,Monocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,13/06/2020 19:26,18/01/1972
+2091,3000,11500,Neutrófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,13/06/2020 19:26,18/01/1972
+17,60,77,Neutrófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,13/06/2020 19:26,18/01/1972
+7.6,5.7,7.5,Proteinas totales,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",g/dl,...,13/06/2020 19:26,18/01/1972
+8800000,5500000,8500000,Recuento de eritrocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,13/06/2020 19:26,18/01/1972
+12300,6000,17500,Recuento de leucocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,13/06/2020 19:26,18/01/1972
+420000,200000,500000,Recuento Plaquetario,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,13/06/2020 19:26,18/01/1972
+40,15,50,Urea ,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",mg/dl,...,13/06/2020 19:26,18/01/1972
+0,0.9,2.4,Eosinofilos en banda,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+274,100,1250,Eosinófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,25/06/2020 13:36,18/01/1972
+2,2,10,Eosinófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+6.1,1.3,4.9,Índice de maduración eritroide,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+8.79,2.6,26.7,Indice de maduración mieloide,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",---,...,25/06/2020 13:36,18/01/1972
+7672,1000,4800,Linfocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,25/06/2020 13:36,18/01/1972
+56,12,30,Linfocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+0,0.4,3.7,Metamielocitos eosinofilos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+2,3,10,Monocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+5.2,6.8,62.9,Neutrofilos en banda,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+5206,3000,11500,Neutrófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,25/06/2020 13:36,18/01/1972
+38,60,77,Neutrófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+4.1,0.4,11.6,Normoblastos basofilos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+7,3.5,27,Normoblastos policromatófilos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,25/06/2020 13:36,18/01/1972
+6600000,5500000,8500000,Recuento de eritrocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,25/06/2020 13:36,18/01/1972
+13700,6000,17500,Recuento de leucocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,25/06/2020 13:36,18/01/1972
+280000,200000,500000,Recuento Plaquetario,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,25/06/2020 13:36,18/01/1972
+0,0.9,2.4,Eosinofilos en banda,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+10,2,10,Eosinófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+600,100,1250,Eosinófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,07/08/2020 15:49,18/01/1972
+4.25,1.3,4.9,Índice de maduración eritroide,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+4.72,2.6,26.7,Indice de maduración mieloide,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",---,...,07/08/2020 15:49,18/01/1972
+1380,1000,4800,Linfocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,07/08/2020 15:49,18/01/1972
+23,12,30,Linfocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+0,0.4,3.7,Metamielocitos eosinofilos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+10,3,10,Monocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+2.8,6.8,62.9,Neutrofilos en banda,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+57,60,77,Neutrófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+3420,3000,11500,Neutrófilos Segmentados,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,07/08/2020 15:49,18/01/1972
+5.5,0.4,11.6,Normoblastos basofilos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+6.6,3.5,27,Normoblastos policromatófilos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",%,...,07/08/2020 15:49,18/01/1972
+5800000,5500000,8500000,Recuento de eritrocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,07/08/2020 15:49,18/01/1972
+6000,6000,17500,Recuento de leucocitos,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,07/08/2020 15:49,18/01/1972
+120000,200000,500000,Recuento Plaquetario,4365763,Wagner,Harrison,mauris.Integer@lacusUtnec.co.uk,(904) 757-8793,"P.O. Box 560, 5759 Ullamcorper Rd.",Cél/ul,...,07/08/2020 15:49,18/01/1972
+0,0.9,2.4,Eosinofilos en banda,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+531,100,1250,Eosinófilos Segmentados,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",Cél/ul,...,29/06/2020 17:00,18/11/1997
+9,2,10,Eosinófilos Segmentados,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+2.45,1.3,4.9,Índice de maduración eritroide,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+767,1000,4800,Linfocitos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",Cél/ul,...,29/06/2020 17:00,18/11/1997
+13,12,30,Linfocitos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+0,0.4,3.7,Metamielocitos eosinofilos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+10,3,10,Monocitos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+0,6.8,62.9,Neutrofilos en banda,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+4012,3000,11500,Neutrófilos Segmentados,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",Cél/ul,...,29/06/2020 17:00,18/11/1997
+68,60,77,Neutrófilos Segmentados,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+22.5,0.4,11.6,Normoblastos basofilos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+25.8,3.5,27,Normoblastos policromatófilos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",%,...,29/06/2020 17:00,18/11/1997
+7000000,5500000,8500000,Recuento de eritrocitos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",Cél/ul,...,29/06/2020 17:00,18/11/1997
+5900,6000,17500,Recuento de leucocitos,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",Cél/ul,...,29/06/2020 17:00,18/11/1997
+330000,200000,500000,Recuento Plaquetario,4141001,Thompson,Josiah,vitae.mauris@interdumligulaeu.co.uk,(850) 345-3735,"P.O. Box 625, 1758 Donec Avenue",Cél/ul,...,29/06/2020 17:00,18/11/1997
+0,0.67,2.45,Celulas plasmaticas,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+33,31,35,Concentración hemoglobinica corpuscular media,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0,0.08,0.89,Eosinofilos en banda,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0.5,0.4,0.8,Eosinofilos segmentados,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+215,300,800,Eosinófilos Segmentados,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,Cél/ul,...,17/07/2020 16:00,06/11/1969
+5,2,12,Eosinófilos Segmentados,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+24,30,44,Hematocrito,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+8,8,15,Hemoglobina,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,g/dl,...,17/07/2020 16:00,06/11/1969
+12.85,1.3,4.9,Índice de maduración eritroide,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+42.6,2.6,26.7,Indice de maduración mieloide,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,---,...,17/07/2020 16:00,06/11/1969
+3010,1500,7000,Linfocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,Cél/ul,...,17/07/2020 16:00,06/11/1969
+70,22,55,Linfocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+4.1,3.76,11.04,Linfocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0,0.15,0.93,Metamielocitos eosinofilos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+7.7,7.16,13.56,Metamielocitos neutrofilos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0,0.18,1.01,Mielocitos eosinofilos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0,1.82,6.8,Mielocitos neutrofilos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0,1,4,Monocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+0,0.26,1.28,Monocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+10.8,13.1,15.7,Neutrofilos en banda,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+24.1,4.14,14.04,Neutrófilos Segmentados,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+23,37,75,Neutrófilos Segmentados,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+989,2500,12500,Neutrófilos Segmentados,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,Cél/ul,...,17/07/2020 16:00,06/11/1969
+1,2.46,5.58,Normoblastos basofilos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+19,2.39,8.69,Normoblastos ortocromaticos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+6.7,13.09,22.05,Normoblastos policromatófilos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+1,0.7,2.78,Promielocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,%,...,17/07/2020 16:00,06/11/1969
+4000000,5000000,10000000,Recuento de eritrocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,Cél/ul,...,17/07/2020 16:00,06/11/1969
+4300,5500,19500,Recuento de leucocitos,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,Cél/ul,...,17/07/2020 16:00,06/11/1969
+500000,300000,800000,Recuento Plaquetario,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,Cél/ul,...,17/07/2020 16:00,06/11/1969
+66,39,55,Volumen corpuscular medio,4392269,Hansen,Susan,amet@anunc.net,(238) 284-6110,257-4810 Tempor St.,fl,...,17/07/2020 16:00,06/11/1969
+0.5,0.9,2.4,Eosinofilos en banda,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+0,100,1250,Eosinófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,17/07/2020 17:12,10/08/1983
+0,2,10,Eosinófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+3.5,1.3,4.9,Índice de maduración eritroide,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+38.8,2.6,26.7,Indice de maduración mieloide,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",---,...,17/07/2020 17:12,10/08/1983
+77740,1000,4800,Linfocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,17/07/2020 17:12,10/08/1983
+65,12,30,Linfocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+0,0.4,3.7,Metamielocitos eosinofilos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+1,3,10,Monocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+2.5,6.8,62.9,Neutrofilos en banda,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+17940,3000,11500,Neutrófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,17/07/2020 17:12,10/08/1983
+15,60,77,Neutrófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+2,0.4,11.6,Normoblastos basofilos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+3,3.5,27,Normoblastos policromatófilos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,17/07/2020 17:12,10/08/1983
+6200000,5500000,8500000,Recuento de eritrocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,17/07/2020 17:12,10/08/1983
+119600,6000,17500,Recuento de leucocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,17/07/2020 17:12,10/08/1983
+390000,200000,500000,Recuento Plaquetario,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,17/07/2020 17:12,10/08/1983
+33,30,36,Concentración hemoglobinica corpuscular media,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,31/07/2020 15:08,10/08/1983
+0,100,1250,Eosinófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,31/07/2020 15:08,10/08/1983
+0,2,10,Eosinófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,31/07/2020 15:08,10/08/1983
+11610,1000,4800,Linfocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,31/07/2020 15:08,10/08/1983
+45,12,30,Linfocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,31/07/2020 15:08,10/08/1983
+4,3,10,Monocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,31/07/2020 15:08,10/08/1983
+12900,3000,11500,Neutrófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,31/07/2020 15:08,10/08/1983
+50,60,77,Neutrófilos Segmentados,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",%,...,31/07/2020 15:08,10/08/1983
+4800000,5500000,8500000,Recuento de eritrocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,31/07/2020 15:08,10/08/1983
+25800,6000,17500,Recuento de leucocitos,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,31/07/2020 15:08,10/08/1983
+280000,200000,500000,Recuento Plaquetario,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",Cél/ul,...,31/07/2020 15:08,10/08/1983
+66,60,77,Volumen corpuscular medio,4000758,Lang,Dennis,amet.luctus@ultricesposuerecubilia.com,(140) 858-2489,"P.O. Box 352, 1930 Fusce Avenue",fl,...,31/07/2020 15:08,10/08/1983
+33,30,36,Concentración hemoglobinica corpuscular media,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+0,0.9,2.4,Eosinofilos en banda,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+0,2,10,Eosinófilos Segmentados,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+0,100,1250,Eosinófilos Segmentados,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Cél/ul,...,21/07/2020 18:43,04/11/1981
+45.83,1.3,4.9,Índice de maduración eritroide,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+7.68,2.6,26.7,Indice de maduración mieloide,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",---,...,21/07/2020 18:43,04/11/1981
+4,12,30,Linfocitos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+924,1000,4800,Linfocitos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Cél/ul,...,21/07/2020 18:43,04/11/1981
+0,0.4,3.7,Metamielocitos eosinofilos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+2,3,10,Monocitos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+2.5,6.8,62.9,Neutrofilos en banda,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+21714,3000,11500,Neutrófilos Segmentados,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Cél/ul,...,21/07/2020 18:43,04/11/1981
+94,60,77,Neutrófilos Segmentados,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+1.2,0.4,11.6,Normoblastos basofilos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+16.7,3.5,27,Normoblastos policromatófilos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",%,...,21/07/2020 18:43,04/11/1981
+3800000,5500000,8500000,Recuento de eritrocitos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Cél/ul,...,21/07/2020 18:43,04/11/1981
+23100,6000,17500,Recuento de leucocitos,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Cél/ul,...,21/07/2020 18:43,04/11/1981
+500000,200000,500000,Recuento Plaquetario,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Cél/ul,...,21/07/2020 18:43,04/11/1981
+26,5,7,Tiempo de Protrombina corregida,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Segundos,...,21/07/2020 18:43,04/11/1981
+24,15,17,Tiempo de Tromboplastina Parcial Activado con Kaolín corregido,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",Segundos,...,21/07/2020 18:43,04/11/1981
+66,60,77,Volumen corpuscular medio,4484890,Valenzuela,Teegan,Donec.nibh@Integertinciduntaliquam.co.uk,(568) 602-4377,"P.O. Box 630, 5215 Nulla Ave",fl,...,21/07/2020 18:43,04/11/1981
+33,30,36,Concentración hemoglobinica corpuscular media,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+0,0.9,2.4,Eosinofilos en banda,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+0,2,10,Eosinófilos Segmentados,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+0,100,1250,Eosinófilos Segmentados,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Cél/ul,...,24/07/2020 18:34,17/06/1957
+7.67,1.3,4.9,Índice de maduración eritroide,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+1.73,2.6,26.7,Indice de maduración mieloide,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",---,...,24/07/2020 18:34,17/06/1957
+2,12,30,Linfocitos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+764,1000,4800,Linfocitos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Cél/ul,...,24/07/2020 18:34,17/06/1957
+0,0.4,3.7,Metamielocitos eosinofilos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+3,3,10,Monocitos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+4.4,6.8,62.9,Neutrofilos en banda,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+35908,3000,11500,Neutrófilos Segmentados,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Cél/ul,...,24/07/2020 18:34,17/06/1957
+94,60,77,Neutrófilos Segmentados,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+3.6,0.4,11.6,Normoblastos basofilos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+5.2,3.5,27,Normoblastos policromatófilos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",%,...,24/07/2020 18:34,17/06/1957
+2500000,5500000,8500000,Recuento de eritrocitos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Cél/ul,...,24/07/2020 18:34,17/06/1957
+38200,6000,17500,Recuento de leucocitos,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Cél/ul,...,24/07/2020 18:34,17/06/1957
+280000,200000,500000,Recuento Plaquetario,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Cél/ul,...,24/07/2020 18:34,17/06/1957
+40,15,17,Tiempo de Tromboplastina Parcial Activado con Kaolín corregido,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",Segundos,...,24/07/2020 18:34,17/06/1957
+60,60,77,Volumen corpuscular medio,4539254,Hopkins,Colton,luctus.lobortis.Class@atliberoMorbi.com,(244) 571-7000,"P.O. Box 200, 7498 Semper Rd.",fl,...,24/07/2020 18:34,17/06/1957
+3006,100,1250,Eosinófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,13/07/2020 14:22,25/11/1996
+6,2,10,Eosinófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,13/07/2020 14:22,25/11/1996
+63,12,30,Linfocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,13/07/2020 14:22,25/11/1996
+31563,1000,4800,Linfocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,13/07/2020 14:22,25/11/1996
+3,3,10,Monocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,13/07/2020 14:22,25/11/1996
+25,60,77,Neutrófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,13/07/2020 14:22,25/11/1996
+12525,3000,11500,Neutrófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,13/07/2020 14:22,25/11/1996
+7200000,5500000,8500000,Recuento de eritrocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,13/07/2020 14:22,25/11/1996
+50100,6000,17500,Recuento de leucocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,13/07/2020 14:22,25/11/1996
+350000,200000,500000,Recuento Plaquetario,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,13/07/2020 14:22,25/11/1996
+0,0.9,2.4,Eosinofilos en banda,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+1,2,10,Eosinófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+373,100,1250,Eosinófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,27/07/2020 16:19,25/11/1996
+5.82,1.3,4.9,Índice de maduración eritroide,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+12.14,2.6,26.7,Indice de maduración mieloide,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,---,...,27/07/2020 16:19,25/11/1996
+87,12,30,Linfocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+32451,1000,4800,Linfocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,27/07/2020 16:19,25/11/1996
+0,0.4,3.7,Metamielocitos eosinofilos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+2,3,10,Monocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+5.9,6.8,62.9,Neutrofilos en banda,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+10,60,77,Neutrófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+3730,3000,11500,Neutrófilos Segmentados,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,27/07/2020 16:19,25/11/1996
+1.1,0.4,11.6,Normoblastos basofilos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+0.5,3.5,27,Normoblastos policromatófilos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,%,...,27/07/2020 16:19,25/11/1996
+6700000,5500000,8500000,Recuento de eritrocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,27/07/2020 16:19,25/11/1996
+37300,6000,17500,Recuento de leucocitos,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,27/07/2020 16:19,25/11/1996
+340000,200000,500000,Recuento Plaquetario,4207152,Adams,Quincy,parturient.montes.nascetur@Pellentesquetincidunt.net,(570) 503-8069,607-6190 Ut Av.,Cél/ul,...,27/07/2020 16:19,25/11/1996
+3.1,2.1,3.6,Albuminas,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,g/dl,...,10/07/2020 14:04,11/12/2004
+4,2,12,Eosinófilos Segmentados,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,%,...,10/07/2020 14:04,11/12/2004
+376,300,800,Eosinófilos Segmentados,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+7.1,2.6,6,Fósforo inorgánico,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,mg/dl,...,10/07/2020 14:04,11/12/2004
+70,60,140,Glucosa,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,mg/dl,...,10/07/2020 14:04,11/12/2004
+40,30,44,Hematocrito,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,%,...,10/07/2020 14:04,11/12/2004
+40,30,44,Hematocrito,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,%,...,10/07/2020 14:04,11/12/2004
+14,8,15,Hemoglobina,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,g/dl,...,10/07/2020 14:04,11/12/2004
+4,22,55,Linfocitos,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,%,...,10/07/2020 14:04,11/12/2004
+376,1500,7000,Linfocitos,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+6,1,4,Monocitos,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,%,...,10/07/2020 14:04,11/12/2004
+7520,2500,12500,Neutrófilos Segmentados,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+80,37,75,Neutrófilos Segmentados,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,%,...,10/07/2020 14:04,11/12/2004
+6.6,5.6,7.8,Proteinas totales,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,g/dl,...,10/07/2020 14:04,11/12/2004
+7100000,5000000,10000000,Recuento de eritrocitos,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+9400,5500,19500,Recuento de leucocitos,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+9400,5500,19500,Recuento de leucocitos,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+140000,300000,800000,Recuento Plaquetario,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,Cél/ul,...,10/07/2020 14:04,11/12/2004
+55,30,60,Urea ,4003517,Gonzalez,Cairo,cursus.diam.at@rhoncusDonecest.net,(958) 390-9065,569-4914 Arcu Rd.,mg/dl,...,10/07/2020 14:04,11/12/2004
+11,2,10,Eosinófilos Segmentados,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",%,...,11/07/2020 18:12,03/06/1954
+550,100,1250,Eosinófilos Segmentados,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",Cél/ul,...,11/07/2020 18:12,03/06/1954
+78,80,120,Glucosa,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",mg/dl,...,11/07/2020 18:12,03/06/1954
+51,12,30,Linfocitos,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",%,...,11/07/2020 18:12,03/06/1954
+2550,1000,4800,Linfocitos,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",Cél/ul,...,11/07/2020 18:12,03/06/1954
+8,3,10,Monocitos,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",%,...,11/07/2020 18:12,03/06/1954
+30,60,77,Neutrófilos Segmentados,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",%,...,11/07/2020 18:12,03/06/1954
+1500,3000,11500,Neutrófilos Segmentados,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",Cél/ul,...,11/07/2020 18:12,03/06/1954
+7,5.7,7.5,Proteinas totales,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",g/dl,...,11/07/2020 18:12,03/06/1954
+8000000,5500000,8500000,Recuento de eritrocitos,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",Cél/ul,...,11/07/2020 18:12,03/06/1954
+5000,6000,17500,Recuento de leucocitos,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",Cél/ul,...,11/07/2020 18:12,03/06/1954
+260000,200000,500000,Recuento Plaquetario,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",Cél/ul,...,11/07/2020 18:12,03/06/1954
+41,15,50,Urea ,4313817,Molina,Cairo,lacus.Quisque.imperdiet@ametnulla.org,(286) 709-5866,"P.O. Box 884, 853 Sodales Avenue",mg/dl,...,11/07/2020 18:12,03/06/1954
+11,2,10,Eosinófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,06/12/2019 16:08,30/03/1977
+682,100,1250,Eosinófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,06/12/2019 16:08,30/03/1977
+98,80,120,Glucosa,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",mg/dl,...,06/12/2019 16:08,30/03/1977
+620,1000,4800,Linfocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,06/12/2019 16:08,30/03/1977
+10,12,30,Linfocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,06/12/2019 16:08,30/03/1977
+5,3,10,Monocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,06/12/2019 16:08,30/03/1977
+74,60,77,Neutrófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,06/12/2019 16:08,30/03/1977
+4588,3000,11500,Neutrófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,06/12/2019 16:08,30/03/1977
+6.6,5.7,7.5,Proteinas totales,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",g/dl,...,06/12/2019 16:08,30/03/1977
+8500000,5500000,8500000,Recuento de eritrocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,06/12/2019 16:08,30/03/1977
+6200,6000,17500,Recuento de leucocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,06/12/2019 16:08,30/03/1977
+304000,200000,500000,Recuento Plaquetario,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,06/12/2019 16:08,30/03/1977
+40,15,50,Urea ,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",mg/dl,...,06/12/2019 16:08,30/03/1977
+320,100,1250,Eosinófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,11/07/2020 18:13,30/03/1977
+8,2,10,Eosinófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,11/07/2020 18:13,30/03/1977
+75,80,120,Glucosa,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",mg/dl,...,11/07/2020 18:13,30/03/1977
+22,12,30,Linfocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,11/07/2020 18:13,30/03/1977
+880,1000,4800,Linfocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,11/07/2020 18:13,30/03/1977
+5,3,10,Monocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,11/07/2020 18:13,30/03/1977
+65,60,77,Neutrófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",%,...,11/07/2020 18:13,30/03/1977
+2600,3000,11500,Neutrófilos Segmentados,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,11/07/2020 18:13,30/03/1977
+6.8,5.7,7.5,Proteinas totales,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",g/dl,...,11/07/2020 18:13,30/03/1977
+7900000,5500000,8500000,Recuento de eritrocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,11/07/2020 18:13,30/03/1977
+4000,6000,17500,Recuento de leucocitos,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,11/07/2020 18:13,30/03/1977
+330000,200000,500000,Recuento Plaquetario,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",Cél/ul,...,11/07/2020 18:13,30/03/1977
+35,15,50,Urea ,4690233,Willis,Yasir,justo.eu@Sedeu.ca,(881) 182-7680,"P.O. Box 737, 483 Integer Av.",mg/dl,...,11/07/2020 18:13,30/03/1977
+6,2,10,Eosinófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,05/08/2020 19:38,13/09/1948
+702,100,1250,Eosinófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,05/08/2020 19:38,13/09/1948
+1170,1000,4800,Linfocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,05/08/2020 19:38,13/09/1948
+10,12,30,Linfocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,05/08/2020 19:38,13/09/1948
+4,3,10,Monocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,05/08/2020 19:38,13/09/1948
+8658,3000,11500,Neutrófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,05/08/2020 19:38,13/09/1948
+74,60,77,Neutrófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,05/08/2020 19:38,13/09/1948
+6.9,5.7,7.5,Proteinas totales,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",g/dl,...,05/08/2020 19:38,13/09/1948
+7100000,5500000,8500000,Recuento de eritrocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,05/08/2020 19:38,13/09/1948
+11700,6000,17500,Recuento de leucocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,05/08/2020 19:38,13/09/1948
+130000,200000,500000,Recuento Plaquetario,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,05/08/2020 19:38,13/09/1948
+7,5,7,Tiempo de Protrombina,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Segundos,...,05/08/2020 19:38,13/09/1948
+15,15,17,Tiempo de Tromboplastina Parcial Activado con Kaolín,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Segundos,...,05/08/2020 19:38,13/09/1948
+31,15,50,Urea ,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",mg/dl,...,05/08/2020 19:38,13/09/1948
+0,0.9,2.4,Eosinofilos en banda,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+4,2,10,Eosinófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+364,100,1250,Eosinófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,20/08/2020 17:03,13/09/1948
+2.69,1.3,4.9,Índice de maduración eritroide,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+3.16,2.6,26.7,Indice de maduración mieloide,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",---,...,20/08/2020 17:03,13/09/1948
+1092,1000,4800,Linfocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,20/08/2020 17:03,13/09/1948
+12,12,30,Linfocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+0,0.4,3.7,Metamielocitos eosinofilos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+6,3,10,Monocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+4.7,6.8,62.9,Neutrofilos en banda,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+7098,3000,11500,Neutrófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,20/08/2020 17:03,13/09/1948
+78,60,77,Neutrófilos Segmentados,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+8.9,0.4,11.6,Normoblastos basofilos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+11.5,3.5,27,Normoblastos policromatófilos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",%,...,20/08/2020 17:03,13/09/1948
+7300000,5500000,8500000,Recuento de eritrocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,20/08/2020 17:03,13/09/1948
+9100,6000,17500,Recuento de leucocitos,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,20/08/2020 17:03,13/09/1948
+30000,200000,500000,Recuento Plaquetario,4597205,Sanford,Tate,dui.Fusce@adipiscingMaurismolestie.edu,(182) 972-5205,"P.O. Box 303, 8253 Tellus. St.",Cél/ul,...,20/08/2020 17:03,13/09/1948
+33,30,36,Concentración hemoglobinica corpuscular media,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,19/12/2019 19:44,13/07/1957
+3,2,10,Eosinófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,19/12/2019 19:44,13/07/1957
+321,100,1250,Eosinófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,19/12/2019 19:44,13/07/1957
+91,80,120,Glucosa,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",mg/dl,...,19/12/2019 19:44,13/07/1957
+15,12,30,Linfocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,19/12/2019 19:44,13/07/1957
+1605,1000,4800,Linfocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,19/12/2019 19:44,13/07/1957
+8,3,10,Monocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,19/12/2019 19:44,13/07/1957
+7918,3000,11500,Neutrófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,19/12/2019 19:44,13/07/1957
+74,60,77,Neutrófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,19/12/2019 19:44,13/07/1957
+7.1,5.7,7.5,Proteinas totales,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",g/dl,...,19/12/2019 19:44,13/07/1957
+5700000,5500000,8500000,Recuento de eritrocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,19/12/2019 19:44,13/07/1957
+10700,6000,17500,Recuento de leucocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,19/12/2019 19:44,13/07/1957
+210000,200000,500000,Recuento Plaquetario,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,19/12/2019 19:44,13/07/1957
+34,15,50,Urea ,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",mg/dl,...,19/12/2019 19:44,13/07/1957
+60,60,77,Volumen corpuscular medio,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",fl,...,19/12/2019 19:44,13/07/1957
+33,30,36,Concentración hemoglobinica corpuscular media,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+0,0.9,2.4,Eosinofilos en banda,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+0,2,10,Eosinófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+0,100,1250,Eosinófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,03/09/2020 16:29,13/07/1957
+250,200,380,Fibrinógeno,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",mg/dl,...,03/09/2020 16:29,13/07/1957
+95,80,120,Glucosa,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",mg/dl,...,03/09/2020 16:29,13/07/1957
+3.33,1.3,4.9,Índice de maduración eritroide,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+6.29,2.6,26.7,Indice de maduración mieloide,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",---,...,03/09/2020 16:29,13/07/1957
+16,12,30,Linfocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+1952,1000,4800,Linfocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,03/09/2020 16:29,13/07/1957
+0,0.4,3.7,Metamielocitos eosinofilos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+12,3,10,Monocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+2.4,6.8,62.9,Neutrofilos en banda,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+8784,3000,11500,Neutrófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,03/09/2020 16:29,13/07/1957
+72,60,77,Neutrófilos Segmentados,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+6.1,0.4,11.6,Normoblastos basofilos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+6.1,3.5,27,Normoblastos policromatófilos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",%,...,03/09/2020 16:29,13/07/1957
+7.4,5.7,7.5,Proteinas totales,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",g/dl,...,03/09/2020 16:29,13/07/1957
+4100000,5500000,8500000,Recuento de eritrocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,03/09/2020 16:29,13/07/1957
+12200,6000,17500,Recuento de leucocitos,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,03/09/2020 16:29,13/07/1957
+268000,200000,500000,Recuento Plaquetario,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Cél/ul,...,03/09/2020 16:29,13/07/1957
+8,5,7,Tiempo de Protrombina,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Segundos,...,03/09/2020 16:29,13/07/1957
+16,15,17,Tiempo de Trombina,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Segundos,...,03/09/2020 16:29,13/07/1957
+15,15,17,Tiempo de Tromboplastina Parcial Activado con Kaolín,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",Segundos,...,03/09/2020 16:29,13/07/1957
+56,15,50,Urea ,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",mg/dl,...,03/09/2020 16:29,13/07/1957
+66,60,77,Volumen corpuscular medio,4431314,Porter,Fritz,risus@sedtortorInteger.org,(983) 819-9339,"Ap #570-1685 Laoreet, St.",fl,...,03/09/2020 16:29,13/07/1957
+128,100,1250,Eosinófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,31/08/2020 15:43,02/02/1983
+4,2,10,Eosinófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,31/08/2020 15:43,02/02/1983
+78,80,120,Glucosa,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,mg/dl,...,31/08/2020 15:43,02/02/1983
+480,1000,4800,Linfocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,31/08/2020 15:43,02/02/1983
+15,12,30,Linfocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,31/08/2020 15:43,02/02/1983
+15,3,10,Monocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,31/08/2020 15:43,02/02/1983
+2112,3000,11500,Neutrófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,31/08/2020 15:43,02/02/1983
+66,60,77,Neutrófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,31/08/2020 15:43,02/02/1983
+6.4,5.7,7.5,Proteinas totales,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,g/dl,...,31/08/2020 15:43,02/02/1983
+9100000,5500000,8500000,Recuento de eritrocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,31/08/2020 15:43,02/02/1983
+3200,6000,17500,Recuento de leucocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,31/08/2020 15:43,02/02/1983
+330000,200000,500000,Recuento Plaquetario,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,31/08/2020 15:43,02/02/1983
+50,15,50,Urea ,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,mg/dl,...,31/08/2020 15:43,02/02/1983
+0,0.9,2.4,Eosinofilos en banda,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+4,2,10,Eosinófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+248,100,1250,Eosinófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,12/09/2020 20:12,02/02/1983
+2.42,1.3,4.9,Índice de maduración eritroide,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+7.38,2.6,26.7,Indice de maduración mieloide,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,---,...,12/09/2020 20:12,02/02/1983
+14,12,30,Linfocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+868,1000,4800,Linfocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,12/09/2020 20:12,02/02/1983
+0,0.4,3.7,Metamielocitos eosinofilos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+22,3,10,Monocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+6.3,6.8,62.9,Neutrofilos en banda,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+3720,3000,11500,Neutrófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,12/09/2020 20:12,02/02/1983
+60,60,77,Neutrófilos Segmentados,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+9.9,0.4,11.6,Normoblastos basofilos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+10.6,3.5,27,Normoblastos policromatófilos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,%,...,12/09/2020 20:12,02/02/1983
+7700000,5500000,8500000,Recuento de eritrocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,12/09/2020 20:12,02/02/1983
+6200,6000,17500,Recuento de leucocitos,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,12/09/2020 20:12,02/02/1983
+320000,200000,500000,Recuento Plaquetario,4649584,Cain,Lawrence,senectus@felisegetvarius.edu,(491) 891-3167,Ap #208-9427 Nam Rd.,Cél/ul,...,12/09/2020 20:12,02/02/1983
+0,100,1250,Eosinófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,10/10/2020 13:57,07/08/1993
+0,2,10,Eosinófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,10/10/2020 13:57,07/08/1993
+2,12,30,Linfocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,10/10/2020 13:57,07/08/1993
+52,1000,4800,Linfocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,10/10/2020 13:57,07/08/1993
+10,3,10,Monocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,10/10/2020 13:57,07/08/1993
+2288,3000,11500,Neutrófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,10/10/2020 13:57,07/08/1993
+88,60,77,Neutrófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,10/10/2020 13:57,07/08/1993
+12,5.7,7.5,Proteinas totales,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,g/dl,...,10/10/2020 13:57,07/08/1993
+5900000,5500000,8500000,Recuento de eritrocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,10/10/2020 13:57,07/08/1993
+2600,6000,17500,Recuento de leucocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,10/10/2020 13:57,07/08/1993
+30000,200000,500000,Recuento Plaquetario,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,10/10/2020 13:57,07/08/1993
+76,15,50,Urea ,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,mg/dl,...,10/10/2020 13:57,07/08/1993
+33,30,36,Concentración hemoglobinica corpuscular media,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+0,0.9,2.4,Eosinofilos en banda,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+40,100,1250,Eosinófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,23/10/2020 15:10,07/08/1993
+2,2,10,Eosinófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+80,200,380,Fibrinógeno,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,mg/dl,...,23/10/2020 15:10,07/08/1993
+7.69,1.3,4.9,Índice de maduración eritroide,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+0.81,2.6,26.7,Indice de maduración mieloide,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,---,...,23/10/2020 15:10,07/08/1993
+1,12,30,Linfocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+20,1000,4800,Linfocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,23/10/2020 15:10,07/08/1993
+0,0.4,3.7,Metamielocitos eosinofilos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+0,3,10,Monocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+2.7,6.8,62.9,Neutrofilos en banda,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+97,60,77,Neutrófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+1940,3000,11500,Neutrófilos Segmentados,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,23/10/2020 15:10,07/08/1993
+4.5,0.4,11.6,Normoblastos basofilos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+6.7,3.5,27,Normoblastos policromatófilos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,%,...,23/10/2020 15:10,07/08/1993
+2000000,5500000,8500000,Recuento de eritrocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,23/10/2020 15:10,07/08/1993
+2000,6000,17500,Recuento de leucocitos,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,23/10/2020 15:10,07/08/1993
+10000,200000,500000,Recuento Plaquetario,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,Cél/ul,...,23/10/2020 15:10,07/08/1993
+60,60,77,Volumen corpuscular medio,4775791,Lamb,Samuel,Ut.semper@Sedet.edu,(466) 205-1554,3974 Tincidunt. Rd.,fl,...,23/10/2020 15:10,07/08/1993
+2.8,2.4,3.6,Albuminas,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",g/dl,...,12/08/2020 15:15,06/12/1988
+33,30,36,Concentración hemoglobinica corpuscular media,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,12/08/2020 15:15,06/12/1988
+6,2,10,Eosinófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,12/08/2020 15:15,06/12/1988
+240,100,1250,Eosinófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,12/08/2020 15:15,06/12/1988
+5.1,2.1,5.6,Fósforo inorgánico,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",mg/dl,...,12/08/2020 15:15,06/12/1988
+76,80,120,Glucosa,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",mg/dl,...,12/08/2020 15:15,06/12/1988
+240,1000,4800,Linfocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,12/08/2020 15:15,06/12/1988
+6,12,30,Linfocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,12/08/2020 15:15,06/12/1988
+8,3,10,Monocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,12/08/2020 15:15,06/12/1988
+3200,3000,11500,Neutrófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,12/08/2020 15:15,06/12/1988
+80,60,77,Neutrófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,12/08/2020 15:15,06/12/1988
+6.4,5.7,7.5,Proteinas totales,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",g/dl,...,12/08/2020 15:15,06/12/1988
+5000000,5500000,8500000,Recuento de eritrocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,12/08/2020 15:15,06/12/1988
+4000,6000,17500,Recuento de leucocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,12/08/2020 15:15,06/12/1988
+120000,200000,500000,Recuento Plaquetario,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,12/08/2020 15:15,06/12/1988
+51,15,50,Urea ,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",mg/dl,...,12/08/2020 15:15,06/12/1988
+60,60,77,Volumen corpuscular medio,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",fl,...,12/08/2020 15:15,06/12/1988
+2,2,10,Eosinófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,30/09/2020 16:45,06/12/1988
+150,100,1250,Eosinófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,30/09/2020 16:45,06/12/1988
+75,80,120,Glucosa,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",mg/dl,...,30/09/2020 16:45,06/12/1988
+10,12,30,Linfocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,30/09/2020 16:45,06/12/1988
+750,1000,4800,Linfocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,30/09/2020 16:45,06/12/1988
+6,3,10,Monocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,30/09/2020 16:45,06/12/1988
+6150,3000,11500,Neutrófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,30/09/2020 16:45,06/12/1988
+82,60,77,Neutrófilos Segmentados,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",%,...,30/09/2020 16:45,06/12/1988
+7.3,5.7,7.5,Proteinas totales,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",g/dl,...,30/09/2020 16:45,06/12/1988
+6600000,5500000,8500000,Recuento de eritrocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,30/09/2020 16:45,06/12/1988
+7500,6000,17500,Recuento de leucocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,30/09/2020 16:45,06/12/1988
+100000,200000,500000,Recuento Plaquetario,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,30/09/2020 16:45,06/12/1988
+75,15,50,Urea ,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",mg/dl,...,30/09/2020 16:45,06/12/1988
+250,200,380,Fibrinógeno,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",mg/dl,...,21/10/2020 16:16,06/12/1988
+7100000,5500000,8500000,Recuento de eritrocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,21/10/2020 16:16,06/12/1988
+16600,6000,17500,Recuento de leucocitos,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Cél/ul,...,21/10/2020 16:16,06/12/1988
+7,5,7,Tiempo de Protrombina,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Segundos,...,21/10/2020 16:16,06/12/1988
+16,15,17,Tiempo de Trombina,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Segundos,...,21/10/2020 16:16,06/12/1988
+20,15,17,Tiempo de Tromboplastina Parcial Activado con Kaolín,4124983,Cochran,Christen,feugiat@condimentumDonecat.edu,(763) 464-7465,"5409 Eu, Av.",Segundos,...,21/10/2020 16:16,06/12/1988

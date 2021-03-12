@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -19,8 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'm3pytyd^m5bm#-%l%_b@7ylo#qg=sqf4tg)3+vhwe1^dd)yq%q'
 
+
+SECRET_KEY = os.environ['DJPROJSECRET']
 
 
 # Application definition
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'rolepermissions',
     'crispy_forms',
     'tempus_dominus',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

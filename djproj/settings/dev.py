@@ -3,4 +3,9 @@
 DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1','localhost', 'ravillar.pythonanywhere.com']
 
-print('Settings para entorno de desarrollo!! ')
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+   }
+}
+
