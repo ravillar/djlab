@@ -26,12 +26,7 @@ def run():
 
         unidad, created = Unidad.objects.get_or_create(sigla=row[10], descrip=row[11])
         paciente, created = Paciente.objects.get_or_create(dni=row[4], apellido=row[5], nombre=row[6], email=row[7], telefono=row[8], direccion=row[9], fecha_nac=row[13])
-        prueba, created = Prueba.objects.get_or_create(minimo=row[1], maximo=row[2], nombre=row[3])
-        orden, created = Orden.objects.get_or_create(fecha=row[12], paciente=paciente)
-        resultado, created = Resultado.objects.get_or_create(orden=orden, paciente=paciente, valor=row[0])
+        prueba, created = Prueba.objects.get_or_create(minimo=row[1], maximo=row[2], nombre=row[3], unidad=unidad)
+        orden, created = Orden.objects.get_or_create(fecha_alta=row[12], paciente=paciente)
+        resultado, created = Resultado.objects.get_or_create(orden=orden, prueba=prueba, valor=row[0])
 
-        # r = Membership.LEARNER
-        # if row[1] == 'I':
-        #     r = Membership.INSTRUCTOR
-        # m = Membership(role=r, person=p, course=c)
-        # m.save()
