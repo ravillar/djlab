@@ -54,8 +54,15 @@ class UnidadListView(LaboratorioRequired, View):
 
             # Multi-field search
             # __icontains for case-insensitive search
+
             query = Q(sigla__icontains=strval)
             query.add(Q(descrip__icontains=strval), Q.OR)
+            try:
+                valInt=int(strval)
+            except:
+                valInt=None
+            if valInt != None:
+                query.add(Q(id=valInt), Q.OR)
             objects = Unidad.objects.filter(query).select_related().order_by('id')#[:10]
         else :
             objects = Unidad.objects.all().order_by('pk')#[:10]
@@ -102,6 +109,12 @@ class PruebaListView(LaboratorioRequired, View):
             query = Q(nombre__icontains=strval)
             query.add(Q(unidad__sigla__icontains=strval), Q.OR)
             query.add(Q(unidad__descrip__icontains=strval), Q.OR)
+            try:
+                valInt=int(strval)
+            except:
+                valInt=None
+            if valInt != None:
+                query.add(Q(id=valInt), Q.OR)
             objects = Prueba.objects.filter(query).select_related().order_by('id')
         else :
             objects = Prueba.objects.all().order_by('pk')
@@ -140,6 +153,12 @@ class PacienteListView(RecepcionRequired, View):
             query.add(Q(apellido__icontains=strval), Q.OR)
             query.add(Q(email__icontains=strval), Q.OR)
             query.add(Q(telefono__icontains=strval), Q.OR)
+            try:
+                valInt=int(strval)
+            except:
+                valInt=None
+            if valInt != None:
+                query.add(Q(id=valInt), Q.OR)
             objects = Paciente.objects.filter(query).select_related().order_by('id')
         else :
             objects = Paciente.objects.all().order_by('pk')
@@ -178,6 +197,12 @@ class OrdenResuListView(View):
         if strval :
             query = Q(paciente__nombre__icontains=strval)
             query.add(Q(paciente__apellido__icontains=strval), Q.OR)
+            try:
+                valInt=int(strval)
+            except:
+                valInt=None
+            if valInt != None:
+                query.add(Q(id=valInt), Q.OR)
             objects = Orden.objects.filter(query).select_related().order_by('-fecha_alta')
         else :
             objects = Orden.objects.all().order_by('-fecha_alta')

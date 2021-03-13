@@ -1,13 +1,13 @@
     <form>
             <div class="input-group input-group-button">
-                  <input  class="form-control"  type="text" placeholder="Filtrar..." name="filtrar"
+                  <input  class="form-control"  type="text" placeholder="Filtrar..."  name="filtrar"
         {% if filtrar %} value="{{ filtrar  }}" {% endif %}
           >
                 <div class="input-group-append">
-                    <button type="submit" class="btn btn-info"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="btn btn-info" title="Filtrar"><i class="fa fa-search"></i></button>
                 </div>
                 <div class="input-group-append">
-                    <a class="btn btn-info" href="{{aux.url}}"><i class="fa fa-undo"></i></a>
+                    <a class="btn btn-info" href="{{aux.url}}" title="Restablecer"><i class="fa fa-undo"></i></a>
                 </div>
             </div>
     
