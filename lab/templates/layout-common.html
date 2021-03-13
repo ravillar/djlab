@@ -58,6 +58,8 @@
                                         <a class="dropdown-item" href="{% url 'unidad-list' %}" data-toggle="tooltip" data-placement="top" title="Unidades"><i class="fas fa-ruler-combined"></i></a>
                                     {% endif %}
                                 {% endif %}
+                                        <a class="dropdown-item" href="{% url 'changepass' %}?next={{ request.path  }}" data-toggle="tooltip" data-placement="top" title="Cambio de contraseña"><i class="fas fa-key"></i></a>
+                                        <a class="dropdown-item" href="{% url 'logout' %}" data-toggle="tooltip" data-placement="top" title="Salir"><i class="fas fa-power-off"></i></a>
                                     
                                 </div>
                             </div>
@@ -100,7 +102,9 @@
                             </div>
                         </div>
 
+                        {% block info %}{% endblock %}
                         <div class="row">
+
                             <div class="col-md-12">
                                 <div class="card table-card">
                                     <div class="card-body">
@@ -178,6 +182,12 @@
                                     {% endif %}
                                 {% endif %}
 
+                                <div class="app-item">
+                                    <a href="{% url 'changepass' %}?next={{ request.path  }}"><i class="fas fa-key"></i><span>Cambio de contraseña </span></a>
+                                </div>
+                                <div class="app-item">
+                                    <a href="{% url 'logout' %}"><i class="fas fa-power-off"></i><span>Salir</span></a>
+                                </div>
 
                             </div>
                         </div>

@@ -34,6 +34,7 @@
             }
             .firma{width:13em;}
             .descrip td{font-weight:bold}
+            .resuTit{text-transform:uppercase;text-align:center;font-weight:bold}
         </style>
     </head>
 
@@ -58,12 +59,11 @@
                  <br>
          <div class="row">
              <div id="conteRes" class="col-12 table-responsive">
-                 
 
                  <table class="table table-striped">
                      <thead>
                          <tr>
-                             <td colspan="5" style="text-align:center"><h6><strong>Estudios realizados</strong></h6></td>
+                             <td colspan="4" class="resuTit">Estudios realizados</td>
                          </tr>
                      </thead>
                      <tbody>
@@ -72,7 +72,7 @@
                          </tr>
                          {% for r in res %}
                          
-                         <tr><td><strong>{{r.prueba.nombre}}</strong></td><td><strong>{{r.valor}}</strong></td><td>{{r.prueba.minimo}}-{{r.prueba.maximo}}</td><td
+                         <tr><td>{{r.prueba.nombre}}</td><td><strong>{{r.valor}}</strong></td><td>{{r.prueba.minimo}}-{{r.prueba.maximo}}</td><td
                         style="text-align:center">{{r.prueba.unidad}}</td></tr>
                          
                          {% endfor %}

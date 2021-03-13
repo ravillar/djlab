@@ -1,4 +1,53 @@
 {% extends "layout-common.html" %}
+{% block info %}
+<div class="row">
+    <div class="col-xl-4 col-md-12">
+        <div class="card comp-card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h6 class="mb-14">Órdenes atendidas</h6>
+                        <h3 class="fw-700 text-blue">{{obj.ord}}</h3>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-file-medical bg-blue"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-6">
+        <div class="card comp-card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h6 class="mb-14">Prácticas realizadas</h6>
+                        <h3 class="fw-700 text-green">{{obj.res}}</h3>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-microscope bg-green"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-6">
+        <div class="card comp-card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h6 class="mb-14">Pacientes registrados</h6>
+                        <h3 class="fw-700 text-orange">{{obj.pac}}</h3>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-id-card bg-orange"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
 {% block content %}
-{% lorem 4 p random %} 
+{% lorem 3 p random %} 
 {% endblock %}

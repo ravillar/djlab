@@ -31,10 +31,16 @@ class LaboratorioRequired(HasRoleMixin, LoginRequired):
 
 class HomePageView(LoginRequired, TemplateView):
     template_name = "lab/home.html"
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['aux'] = AUX_CTX['home']
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     context['aux'] = AUX_CTX['home']
+    #     return context
+    def get(self, request) :
+        cant_pac = Paciente.objects.all().count()
+        cant_res = Resultado.objects.all().count()
+        cant_ord = Orden.objects.all().count()
+        ctx = {'obj' : {'pac':cant_pac, 'res':cant_res, 'ord':cant_ord}, 'aux':AUX_CTX['home']}
+        return render(request, self.template_name, ctx)
 
 class UnidAux():
     def get_context_data(self, **kwargs):
