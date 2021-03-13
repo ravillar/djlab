@@ -47,11 +47,12 @@
             </div>
         </div>
         
-        <script src="{% static 'js/popper.min.js' %} "></script>
-        <script src="{% static 'js/jquery.min.js' %} "></script>
-        <script src="{% static 'js/bootstrap.min.js' %} "></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
         <script src="{% static 'js/perfect-scrollbar.min.js' %} "></script>
-        <script src="{% static 'js/common.js' %} "></script>
-        <script src="{% static 'js/theme.min.js' %} "></script>
+        <script src="{% static 'js/theme.min.js' %}"></script>
+
+        {% block footer %}{% endblock %}
     </body>
 </html>

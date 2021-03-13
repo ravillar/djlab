@@ -7,7 +7,7 @@ from django.views import View
 from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
 from lab.models import Unidad, Prueba, Paciente, Orden, Resultado
-from django.db.models import Q
+from django.db.models import Q, Count
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 from django.urls import reverse_lazy
@@ -31,15 +31,16 @@ class LaboratorioRequired(HasRoleMixin, LoginRequired):
 
 class HomePageView(LoginRequired, TemplateView):
     template_name = "lab/home.html"
-    # def get_context_data(self, **kwargs):
-    #     context = super().get_context_data(**kwargs)
-    #     context['aux'] = AUX_CTX['home']
-    #     return context
     def get(self, request) :
         cant_pac = Paciente.objects.all().count()
         cant_res = Resultado.objects.all().count()
         cant_ord = Orden.objects.all().count()
-        ctx = {'obj' : {'pac':cant_pac, 'res':cant_res, 'ord':cant_ord}, 'aux':AUX_CTX['home']}
+        grafico ={'labels':[], 'data':[]}
+        datos = Orden.objects.values('fecha_alta').annotate(cantidad=Count('pruebas')).order_by('fecha_alta')#[:15]
+        for dia in datos:
+            grafico['labels'].append(dia['fecha_alta'].strftime("%d/%m/%Y"))
+            grafico['data'].append(dia['cantidad'])
+        ctx = {'obj' : {'pac':cant_pac, 'res':cant_res, 'ord':cant_ord, 'grafico':grafico}, 'aux':AUX_CTX['home']}
         return render(request, self.template_name, ctx)
 
 class UnidAux():
@@ -57,7 +58,6 @@ class UnidadListView(LaboratorioRequired, View):
         if strval :
             # Simple title-only search
             # objects = Post.objects.filter(title__contains=strval).select_related().order_by('-updated_at')[:10]
-
             # Multi-field search
             # __icontains for case-insensitive search
 

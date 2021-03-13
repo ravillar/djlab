@@ -1,7 +1,11 @@
 {% extends "layout-common.html" %}
+{% load static %}
 {% block content %}
 {% load crispy_forms_tags %}
-{{ form.media.css  }}
+{% block head%}
+    {{ form.media.css  }}
+    <link rel="stylesheet" href="{% static 'css/tempusdominus-bootstrap-4.min.css' %} ">
+{% endblock %}
 <form method="post">{% csrf_token %}
     {{ form|crispy  }}
     <div class="modal-footer">
@@ -10,5 +14,9 @@
     </div>
 </form>
 {% endblock %}
-{% block footer%}{{ form.media.js  }}{% endblock %}
+{% block footer%}
+    {{ form.media.js  }}
+    <script src="{% static 'js/moment-with-locales.min.js' %}"></script>
+    <script src="{% static 'js/tempusdominus-bootstrap-4.min.js' %}"></script>
+{% endblock %}
 

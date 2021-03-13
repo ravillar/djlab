@@ -4,16 +4,15 @@ from django.urls import reverse_lazy
 PAG_CANT_FILAS=10
 
 AUX_CTX = {
-        'home':{'url':reverse_lazy('home'), 'icon':'fas fa-home', 'titulo':'Home', 'singular':'', 'descrip':'Bienvenido al Sistema Lab !!'},
-        'unidad':{'url':reverse_lazy('unidad-list'), 'icon':'fas fa-ruler-combined', 'titulo':'Unidades', 'singular':'Unidad', 'descrip':'En las que se expresan las mediciones de las pruebas de laboratorio'},
-        'prueba':{'url':reverse_lazy('prueba-list'), 'icon':'fas fa-microscope', 'titulo':'Pruebas', 'singular':'Prueba', 'descrip':'Prácticas de laboratorio'},
-        'paciente':{'url':reverse_lazy('paciente-list'), 'icon':'fas fa-id-card', 'titulo':'Pacientes', 'singular':'Paciente', 'descrip':'Registro de personas a las que se le tomaron las muestras'},
-        'orden':{'url':reverse_lazy('orden-list'), 'icon':'fas fa-file-medical', 'titulo':'Órdenes', 'singular':'Orden', 'descrip':'Estudios solicitados por profesionales médicos'},
-        'resultado':{'url':reverse_lazy('resultado'), 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
-        'carga':{'url':reverse_lazy('carga'), 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
-        'changepass':{'url':reverse_lazy('changepass'), 'icon':'fas fa-key', 'titulo':'Cambio de contraseña', 'singular':'', 'descrip':''},
+        'home':{ 'icon':'fas fa-home', 'titulo':'Home', 'singular':'', 'descrip':'Bienvenido al Sistema Lab !!'},
+        'unidad':{ 'icon':'fas fa-ruler-combined', 'titulo':'Unidades', 'singular':'Unidad', 'descrip':'En las que se expresan las mediciones de las pruebas de laboratorio'},
+        'prueba':{ 'icon':'fas fa-microscope', 'titulo':'Pruebas', 'singular':'Prueba', 'descrip':'Prácticas de laboratorio'},
+        'paciente':{ 'icon':'fas fa-id-card', 'titulo':'Pacientes', 'singular':'Paciente', 'descrip':'Registro de personas a las que se le tomaron las muestras'},
+        'orden':{ 'icon':'fas fa-file-medical', 'titulo':'Órdenes', 'singular':'Orden', 'descrip':'Estudios solicitados por profesionales médicos'},
+        'resultado':{ 'icon':'fas fa-file-medical-alt', 'titulo':'Resultados', 'singular':'', 'descrip':'Publicación de los resultados'},
+        'carga':{ 'icon':'fas fa-keyboard', 'titulo':'Carga de resultados', 'singular':'', 'descrip':'Carga de los resultados'},
+        'changepass':{ 'icon':'fas fa-key', 'titulo':'Cambio de contraseña', 'singular':'', 'descrip':''},
 }
-
 
 DTP_ICONS= {
         'today': 'fas fa-calendar-check',

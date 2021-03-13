@@ -17,36 +17,41 @@
                     <div class="sidebar-content">
                         <div class="nav-container">
                             <nav id="main-menu-navigation" class="navigation-main">
-                                <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                {% url 'home' as the_url %}
+                                <div class="nav-item{% if the_url == request.get_full_path %} active{% endif %}">
                                     <a href="{% url 'home' %}"><i class="fas fa-home"></i><span>Home</span></a>
                                 </div>
 
-                                <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                {% url 'resultado' as the_url %}
+                                <div class="nav-item{% if the_url in request.get_full_path %} active{% endif %}">
                                     <a href="{% url 'resultado' %}"><i class="fas fa-file-medical-alt"></i><span>Resultados</span></a>
                                 </div>
 
                                     {% if user|has_role:'recepcion' %}
-                                    <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                    {% url 'orden-list' as the_url %}
+                                    <div class="nav-item{% if the_url in request.get_full_path %} active{% endif %}">
                                         <a href="{% url 'orden-list' %}"><i class="fas fa-file-medical"></i><span>Órdenes</span></a>
                                     </div>
-                                    <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                    {% url 'paciente-list' as the_url %}
+                                    <div class="nav-item{% if the_url in request.get_full_path %} active{% endif %}">
                                         <a href="{% url 'paciente-list' %}"><i class="fas fa-id-card"></i><span>Pacientes</span></a>
                                     </div>
                                     {% endif %}
 
                                     {% if user|has_role:'laboratorio' %}
-                                    <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                    {% url 'carga' as the_url %}
+                                    <div class="nav-item{% if the_url in request.get_full_path %} active{% endif %}">
                                         <a href="{% url 'carga' %}"><i class="fas fa-keyboard"></i><span>Carga</span></a>
                                     </div>
-                                    <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                    {% url 'prueba-list' as the_url %}
+                                    <div class="nav-item{% if the_url in request.get_full_path %} active{% endif %}">
                                         <a href="{% url 'prueba-list' %}"><i class="fas fa-microscope"></i><span>Pruebas</span></a>
                                     </div>
-                                    <div class="nav-item{% if aux.url in request.get_full_path %} active{% endif %}">
+                                    {% url 'unidad-list' as the_url %}
+                                    <div class="nav-item{% if  the_url in request.get_full_path %} active{% endif %}">
                                         <a href="{% url 'unidad-list' %}"><i class="fas fa-ruler-combined"></i><span>Unidades</span></a>
                                     </div>
                                     {% endif %}
-
-
                             </nav>
                         </div>
                     </div>

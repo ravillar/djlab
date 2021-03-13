@@ -33,15 +33,7 @@ class Prueba(models.Model):
 class Orden(models.Model):
     fecha_alta = models.DateTimeField(verbose_name="Fecha", blank=True, null=True)
     paciente = models.ForeignKey(Paciente, on_delete=models.CASCADE)
-    # fecha_alta = models.DateTimeField(auto_now_add=True, verbose_name="Fecha")
-    # fecha_pub = models.DatetimeField(auto_now=True)
-    # pruebas = models.ManyToManyField(Prueba, related_name='pruebas')
     pruebas = models.ManyToManyField(Prueba, through='Resultado')
-    # def save(self, *args, **kwargs):
-    #     ''' On save, update timestamps '''
-    #     if not self.id:
-    #         self.fecha_alta = timezone.now()
-    #     return super(Orden, self).save(*args, **kwargs)
 
     def __str__(self):
         return str(self.paciente) + ' - ' + self.fecha_alta.strftime("%d/%m/%Y %H:%M") #str(self.fecha_alta)

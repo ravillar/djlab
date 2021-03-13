@@ -1,14 +1,15 @@
 {% extends "layout-common.html" %}
+{% load static %}
 {% block content %}
 {% load crispy_forms_tags %}
-{{ form.media.css  }}
-<!-- <form method="post">{#% csrf_token %#} -->
-    {#{ form|crispy  }#}
-    {% crispy form %}
-    <!-- <div class="modal-footer"> -->
-    <!-- <input class="btn btn-secondary" type="button" value="Cancelar" onclick="location.href='{%url 'paciente-list'%}'"> -->
-    <!-- <input class="btn btn-primary"  type="submit" value="Guardar"> -->
-    <!-- </div> -->
-<!-- </form> -->
+{% block head%}
+    {{ form.media.css  }}
+    <link rel="stylesheet" href="{% static 'css/tempusdominus-bootstrap-4.min.css' %} ">
 {% endblock %}
-{% block footer%}{{ form.media.js  }}{% endblock %}
+    {% crispy form %}
+{% endblock %}
+{% block footer%}
+    {{ form.media.js  }}
+    <script src="{% static 'js/moment-with-locales.min.js' %}"></script>
+    <script src="{% static 'js/tempusdominus-bootstrap-4.min.js'%} "></script>
+{% endblock %}

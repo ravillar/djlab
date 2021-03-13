@@ -1,6 +1,5 @@
 {% extends "layout-common.html" %}
 
-
 {% block btn_nuevo%}
     {% if tipo == 'O' %}<a class="btn btn-primary" href="{% url 'orden-create' %}"><i class="{{aux.icon}}"></i>Crear {{aux.singular}}</a>{% endif %}
 {% endblock %}
