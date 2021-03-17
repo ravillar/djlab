@@ -40,7 +40,6 @@
                         <div class="top-menu d-flex align-items-center">
 
 
-
                             <div class="dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-plus"></i></a>
                                 <div class="dropdown-menu dropdown-menu-right menu-grid" aria-labelledby="menuDropdown">
@@ -74,7 +73,9 @@
                                     
                                     <a class="dropdown-item" href="{% url 'logout'%}"><i class="fas fa-power-off dropdown-icon"></i> Salir</a>
                                 </div>
+                                <span class="badge badge-pill badge-dark mb-1">{{ user.get_username  }}</span>
                             </div>
+
                         </div>
                     </div>
                 </div>
