@@ -240,7 +240,7 @@ class OrdenDelete(OrdAux, RecepcionRequired,DeleteView):
 class CargaView(LaboratorioRequired, OrdenResuListView, View):
     def get(self, request) :
         return super().get(request, 'C', AUX_CTX['carga'])
-class ResultadoView(OrdenResuListView, View):
+class ResultadoView(LoginRequired, OrdenResuListView, View):
     def get(self, request) :
         return super().get(request, 'R', AUX_CTX['resultado'])
 
